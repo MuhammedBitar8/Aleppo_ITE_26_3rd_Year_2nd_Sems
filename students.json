@@ -7256,6 +7256,11 @@
           "practical_mark": 25,
           "theoretical_mark": 50,
           "total_mark": 75
+        },
+        "معالجة الإشارة": {
+          "practical_mark": 11,
+          "theoretical_mark": 49,
+          "total_mark": 60
         }
       },
       "average": 69.29,

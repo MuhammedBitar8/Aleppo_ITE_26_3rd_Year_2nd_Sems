@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
     <title>نتائج الطلاب | كلية الهندسة المعلوماتية</title>
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -235,17 +235,6 @@
             flex-wrap: wrap;
         }
 
-        .rank-badge {
-            background: #1e3a6f;
-            color: white;
-            padding: 8px 28px;
-            border-radius: 60px;
-            font-size: 1.8rem;
-            font-weight: 700;
-            box-shadow: 0 8px 14px rgba(0,0,0,0.08);
-            display: inline-block;
-        }
-
         .average-box {
             font-size: 2.2rem;
             font-weight: 800;
@@ -273,14 +262,15 @@
             background: #1e3a6f20;
         }
 
-        /* جدول العلامات */
+        /* جدول العلامات - يظهر فقط على الشاشات الكبيرة */
         .marks-table-container {
-            overflow-x: auto;
             margin-top: 20px;
             border-radius: 24px;
             background: #ffffffc2;
             backdrop-filter: blur(4px);
             padding: 4px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
         }
 
         .marks-table {
@@ -350,11 +340,171 @@
             border-top: 1px dashed #b0c7df;
         }
 
+        /* ---------- Card View للموبايل ---------- */
+        .mobile-cards-view {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .subject-card {
+            background: white;
+            border-radius: 20px;
+            padding: 18px 16px;
+            margin-bottom: 14px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+            border: 1px solid #dce5f0;
+            transition: transform 0.2s;
+        }
+
+        .subject-card:active {
+            transform: scale(0.99);
+        }
+
+        .subject-card-header {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #1e3a6f;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #b0c7df;
+            display: flex;
+            align-items: center;
+        }
+
+        .subject-card-header i {
+            margin-left: 10px;
+            color: #1e3a6f;
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+
+        .subject-card-marks {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            text-align: center;
+        }
+
+        .mark-item {
+            background: #f4f7fc;
+            padding: 12px 5px;
+            border-radius: 16px;
+            transition: background 0.2s;
+        }
+
+        .mark-label {
+            font-size: 0.85rem;
+            color: #5d7188;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        .mark-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0b1e32;
+        }
+
+        .mark-value.missing {
+            color: #c23b3b;
+        }
+
+        .mark-value.total {
+            color: #1e3a6f;
+            background: #e1f0e8;
+            border-radius: 30px;
+            padding: 4px 0;
+            font-size: 1.4rem;
+        }
+
+        /* إخفاء الجدول على الموبايل وإظهار الكروت */
         @media (max-width: 600px) {
-            .app-container { padding: 18px 14px; }
-            h1 { font-size: 1.7rem; }
-            .btn-done { font-size: 1.4rem; padding: 14px 30px; }
-            .student-main-info h2 { font-size: 1.9rem; }
+            .marks-table-container {
+                display: none;
+            }
+            
+            .mobile-cards-view {
+                display: block;
+            }
+            
+            .app-container { 
+                padding: 16px 12px; 
+            }
+            
+            .result-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+            
+            .student-main-info h2 {
+                font-size: 1.7rem;
+            }
+            
+            .student-main-info .details-row {
+                font-size: 1.05rem;
+                gap: 15px;
+            }
+            
+            .average-box {
+                font-size: 1.6rem;
+                padding: 8px 22px;
+                align-self: flex-start;
+            }
+            
+            .back-btn {
+                font-size: 1rem;
+                padding: 8px 18px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .btn-done {
+                font-size: 1.5rem;
+                padding: 15px 40px;
+            }
+            
+            .id-input {
+                font-size: 1.5rem;
+                padding: 15px 18px;
+            }
+        }
+
+        /* للشاشات المتوسطة والكبيرة - إظهار الجدول */
+        @media (min-width: 601px) {
+            .mobile-cards-view {
+                display: none;
+            }
+            
+            .marks-table-container {
+                display: block;
+            }
+        }
+
+        /* تحسينات إضافية للموبايل الصغير جداً */
+        @media (max-width: 400px) {
+            .student-main-info h2 {
+                font-size: 1.4rem;
+            }
+            
+            .subject-card-header {
+                font-size: 1.1rem;
+            }
+            
+            .mark-value {
+                font-size: 1.3rem;
+            }
+            
+            .mark-value.total {
+                font-size: 1.2rem;
+            }
+            
+            .average-box {
+                font-size: 1.4rem;
+            }
         }
     </style>
 </head>
@@ -481,12 +631,10 @@
                     
                     const data = await response.json();
                     
-                    // التحقق من صحة البيانات
                     if (data && data.students && Array.isArray(data.students)) {
                         DATABASE = data;
                         console.log(`✅ تم تحميل ${DATABASE.total_students || DATABASE.students.length} طالب بنجاح`);
                         
-                        // تحديث رسالة الحالة
                         if (dataStatus) {
                             dataStatus.innerHTML = `✅ تم تحميل بيانات ${DATABASE.students.length} طالب`;
                             dataStatus.style.color = '#2d6a4f';
@@ -500,7 +648,6 @@
                 } catch (error) {
                     console.error('❌ خطأ في تحميل البيانات:', error);
                     
-                    // استخدام البيانات الاحتياطية
                     DATABASE = FALLBACK_DATA;
                     
                     if (dataStatus) {
@@ -510,7 +657,6 @@
                     
                     return false;
                 } finally {
-                    // إخفاء شاشة التحميل
                     if (loadingOverlay) {
                         loadingOverlay.style.display = 'none';
                     }
@@ -525,7 +671,6 @@
                 return num.toFixed(decimals);
             }
 
-            // تحويل أي قيمة (غائب، "-"، نص) إلى 0
             function normalizeMark(mark) {
                 if (mark === undefined || mark === null) return 0;
                 if (typeof mark === 'string') {
@@ -538,7 +683,6 @@
                 return 0;
             }
 
-            // استخراج العلامات المعروضة
             function getDisplayMarks(subjectData) {
                 if (!subjectData) {
                     return { practical: 0, theoretical: 0, total: 0 };
@@ -551,10 +695,59 @@
                 return { practical, theoretical, total };
             }
 
-            // البحث عن طالب
             function findStudentById(id) {
                 if (!id || id.length !== 4) return null;
                 return DATABASE.students.find(s => s.student_id === id) || null;
+            }
+
+            // توليد كروت الموبايل
+            function generateMobileCardsView(student) {
+                let cardsHtml = '<div class="mobile-cards-view">';
+                
+                for (let subjName of SUBJECT_ORDER) {
+                    const subjData = student.subjects[subjName];
+                    let marks;
+                    let isMissing = false;
+                    
+                    if (!subjData) {
+                        marks = { practical: 0, theoretical: 0, total: 0 };
+                        isMissing = true;
+                    } else {
+                        marks = getDisplayMarks(subjData);
+                        const rawP = subjData.practical_mark;
+                        const rawT = subjData.theoretical_mark;
+                        if ((typeof rawP === 'string' && (rawP === '-' || rawP === 'غائب')) ||
+                            (typeof rawT === 'string' && (rawT === '-' || rawT === 'غائب'))) {
+                            isMissing = true;
+                        }
+                    }
+                    
+                    cardsHtml += `
+                        <div class="subject-card">
+                            <div class="subject-card-header">
+                                <i class="fas fa-book-open"></i>
+                                ${subjName}
+                            </div>
+                            <div class="subject-card-marks">
+                                <div class="mark-item">
+                                    <div class="mark-label">عملي</div>
+                                    <div class="mark-value ${isMissing ? 'missing' : ''}">${marks.practical}</div>
+                                </div>
+                                <div class="mark-item">
+                                    <div class="mark-label">نظري</div>
+                                    <div class="mark-value ${isMissing ? 'missing' : ''}">${marks.theoretical}</div>
+                                </div>
+                                <div class="mark-item">
+                                    <div class="mark-label">المجموع</div>
+                                    <div class="mark-value total ${isMissing ? 'missing' : ''}">${marks.total}</div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                cardsHtml += '</div>';
+                return cardsHtml;
             }
 
             // عرض الصفحة الثانية
@@ -567,7 +760,7 @@
                 const avgFormatted = formatNumber(student.average, 2).replace('.', ',');
                 const rank = student.rank || '---';
 
-                // بناء جدول المواد
+                // بناء جدول المواد للشاشات الكبيرة
                 let tableRowsHtml = '';
                 for (let subjName of SUBJECT_ORDER) {
                     const subjData = student.subjects[subjName];
@@ -608,6 +801,8 @@
                             المعدل: ${avgFormatted}
                         </div>
                     </div>
+                    
+                    <!-- جدول للشاشات الكبيرة -->
                     <div class="marks-table-container">
                         <table class="marks-table">
                             <thead>
@@ -623,8 +818,12 @@
                             </tbody>
                         </table>
                     </div>
+                    
+                    <!-- كروت للموبايل -->
+                    ${generateMobileCardsView(student)}
+                    
                     <div class="data-status">
-                        * تظهر العلامة 0 في حال وجود غياب أو شرطة "-" | إجمالي الطلاب: ${DATABASE.total_students || DATABASE.students.length}
+                        * العلامة 0 تعني غياب أو "-" | إجمالي الطلاب: ${DATABASE.total_students || DATABASE.students.length}
                     </div>
                 `;
                 studentResultArea.innerHTML = html;
@@ -664,7 +863,6 @@
                     return;
                 }
 
-                // تعطيل الزر مؤقتاً أثناء البحث
                 submitBtn.disabled = true;
                 submitBtn.classList.add('animate-click');
                 setTimeout(() => {
@@ -704,7 +902,6 @@
                 showPage1();
             }
 
-            // بدء التطبيق
             initializeApp();
 
         })();

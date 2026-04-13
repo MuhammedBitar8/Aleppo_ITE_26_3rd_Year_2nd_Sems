@@ -319,6 +319,13 @@
             background-color: #f0f5fe;
         }
 
+        /* المجموع أقل من 60 يظهر بالأحمر */
+        .total-mark-col.failing {
+            color: #c23b3b !important;
+            background-color: #ffe6e6 !important;
+            font-weight: 700;
+        }
+
         .missing-mark {
             color: #9e2f2f;
             font-weight: 500;
@@ -418,6 +425,12 @@
             font-size: 1.2rem;
         }
 
+        /* المجموع أقل من 60 في الكروت يظهر بالأحمر */
+        .mark-value.total.failing {
+            color: #c23b3b !important;
+            background: #ffe6e6 !important;
+        }
+
         /* إخفاء الجدول على الموبايل وإظهار الكروت */
         @media (max-width: 600px) {
             .marks-table-container {
@@ -510,9 +523,9 @@
 
         /* تنسيق الأعمدة في الجدول */
         .marks-table th:nth-child(1) { width: 45%; }  /* المادة */
-        .marks-table th:nth-child(2) { width: 18%; }  /* العلامة العملية */
-        .marks-table th:nth-child(3) { width: 18%; }  /* العلامة الكلية */
-        .marks-table th:nth-child(4) { width: 19%; }  /* العلامة النظرية */
+        .marks-table th:nth-child(2) { width: 18%; }  /* المجموع */
+        .marks-table th:nth-child(3) { width: 18%; }  /* النظري */
+        .marks-table th:nth-child(4) { width: 19%; }  /* العملي */
     </style>
 </head>
 <body>
@@ -585,7 +598,7 @@
                         student_id: "6984",
                         student_name: "محمد بيطار معتوق",
                         subjects: {
-                            "خوارزميات وبنى المعطيات 2": { practical_mark: 24, theoretical_mark: 55, total_mark: 79 },
+                            "خوارزميات وبنى المعطيات 2": { practical_mark: 24, theoretical_mark: 30, total_mark: 54 },
                             "رسوميات حاسوبية ": { practical_mark: "-", theoretical_mark: 70, total_mark: 70 },
                             "قواعد المعطيات 1": { practical_mark: 30, theoretical_mark: "غائب", total_mark: 30 },
                             "معالج مصغّر": { practical_mark: 27, theoretical_mark: 60, total_mark: 87 },
@@ -593,7 +606,7 @@
                             "نظريّة المخطّطات": { practical_mark: 29, theoretical_mark: 58, total_mark: 87 },
                             "نظرية المعلومات": { practical_mark: 30, theoretical_mark: 68, total_mark: 98 }
                         },
-                        average: 89.50,
+                        average: 74.14,
                         rank: 8
                     },
                     {
@@ -729,6 +742,9 @@
                         }
                     }
                     
+                    // تحديد إذا كان المجموع أقل من 60
+                    const isFailing = marks.total < 60;
+                    
                     cardsHtml += `
                         <div class="subject-card">
                             <div class="subject-card-header">
@@ -737,16 +753,16 @@
                             </div>
                             <div class="subject-card-marks">
                                 <div class="mark-item">
-                                    <div class="mark-label">عملي</div>
-                                    <div class="mark-value ${isMissing ? 'missing' : ''}">${marks.practical}</div>
-                                </div>
-                                <div class="mark-item">
                                     <div class="mark-label">المجموع</div>
-                                    <div class="mark-value total ${isMissing ? 'missing' : ''}">${marks.total}</div>
+                                    <div class="mark-value total ${isMissing ? 'missing' : ''} ${isFailing ? 'failing' : ''}">${marks.total}</div>
                                 </div>
                                 <div class="mark-item">
                                     <div class="mark-label">نظري</div>
                                     <div class="mark-value ${isMissing ? 'missing' : ''}">${marks.theoretical}</div>
+                                </div>
+                                <div class="mark-item">
+                                    <div class="mark-label">عملي</div>
+                                    <div class="mark-value ${isMissing ? 'missing' : ''}">${marks.practical}</div>
                                 </div>
                             </div>
                         </div>
@@ -767,7 +783,7 @@
                 const avgFormatted = formatNumber(student.average, 2).replace('.', ',');
                 const rank = student.rank || '---';
 
-                // بناء جدول المواد للشاشات الكبيرة - مع تبديل الأعمدة: عملي, كلي, نظري
+                // بناء جدول المواد - الترتيب: المادة | المجموع | نظري | عملي
                 let tableRowsHtml = '';
                 for (let subjName of SUBJECT_ORDER) {
                     const subjData = student.subjects[subjName];
@@ -787,10 +803,14 @@
                         }
                     }
 
-                    // الترتيب الجديد: المادة | عملي | كلي | نظري
+                    // تحديد إذا كان المجموع أقل من 60
+                    const isFailing = marks.total < 60;
+                    const failingClass = isFailing ? 'failing' : '';
+
+                    // الترتيب: المادة | المجموع | نظري | عملي
                     tableRowsHtml += `<tr>
                         <td class="subject-name">${subjName}</td>
-                        <td class="total-mark-col ${isMissing ? 'missing-mark' : ''}">${marks.total}</td>
+                        <td class="total-mark-col ${isMissing ? 'missing-mark' : ''} ${failingClass}">${marks.total}</td>
                         <td class="${isMissing ? 'missing-mark' : ''}">${marks.theoretical}</td>
                         <td class="${isMissing ? 'missing-mark' : ''}">${marks.practical}</td>
                     </tr>`;
@@ -810,7 +830,7 @@
                         </div>
                     </div>
                     
-                    <!-- جدول للشاشات الكبيرة - أعمدة: المادة | عملي | كلي | نظري -->
+                    <!-- جدول للشاشات الكبيرة - أعمدة: المادة | المجموع | نظري | عملي -->
                     <div class="marks-table-container">
                         <table class="marks-table">
                             <thead>
@@ -818,7 +838,7 @@
                                     <th>المادة</th>
                                     <th>المجموع</th>
                                     <th>نظري</th>
-                                    <th>العملي</th>
+                                    <th>عملي</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -831,7 +851,7 @@
                     ${generateMobileCardsView(student)}
                     
                     <div class="data-status">
-                        * العلامة 0 تعني غياب أو "-" | إجمالي الطلاب: ${DATABASE.total_students || DATABASE.students.length}
+                        * العلامة 0 تعني غياب أو "-" | المجموع أقل من 60 يظهر بالأحمر | إجمالي الطلاب: ${DATABASE.total_students || DATABASE.students.length}
                     </div>
                 `;
                 studentResultArea.innerHTML = html;

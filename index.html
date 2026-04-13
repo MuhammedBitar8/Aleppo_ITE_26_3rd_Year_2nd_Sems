@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نتائج الطلاب | كلية الهندسة المعلوماتية</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Tahoma', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(145deg, #f3f5f9 0%, #e9ecf2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .app-container {
+            width: 100%;
+            max-width: 1100px;
+            background-color: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 48px;
+            box-shadow: 0 25px 45px -12px rgba(0, 20, 40, 0.25);
+            padding: 30px 28px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            transition: all 0.2s ease;
+        }
+
+        /* شاشة التحميل */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            backdrop-filter: blur(8px);
+        }
+
+        .loading-content {
+            text-align: center;
+            padding: 30px;
+            background: white;
+            border-radius: 30px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #e0e7ff;
+            border-top-color: #1e3a6f;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* الصفحات */
+        .page {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .page.active {
+            display: block;
+            opacity: 1;
+        }
+
+        /* ---------- الصفحة الأولى (إدخال الرقم) ---------- */
+        .search-section {
+            text-align: center;
+            padding: 20px 10px 30px;
+        }
+
+        .university-logo {
+            font-size: 48px;
+            color: #1e3a6f;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-weight: 600;
+            font-size: 2.1rem;
+            color: #0b1e32;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .subhead {
+            color: #3e5570;
+            margin-bottom: 48px;
+            font-size: 1.1rem;
+            border-bottom: 1px dashed #a0b8cf;
+            padding-bottom: 18px;
+        }
+
+        .input-wrapper {
+            max-width: 400px;
+            margin: 0 auto 40px;
+        }
+
+        .input-label {
+            display: block;
+            text-align: right;
+            margin-bottom: 10px;
+            font-weight: 500;
+            color: #1e3a6f;
+            font-size: 1.2rem;
+        }
+
+        .id-input {
+            width: 100%;
+            padding: 18px 22px;
+            font-size: 1.8rem;
+            text-align: center;
+            letter-spacing: 8px;
+            font-weight: 500;
+            background: white;
+            border: 2px solid #cddae9;
+            border-radius: 60px;
+            outline: none;
+            transition: all 0.2s;
+            color: #0a1a2b;
+            box-shadow: inset 0 4px 8px rgba(0,0,0,0.02);
+            direction: ltr;
+        }
+
+        .id-input:focus {
+            border-color: #1e4f8a;
+            box-shadow: 0 0 0 4px rgba(30, 79, 138, 0.15), inset 0 2px 6px rgba(0,0,0,0.02);
+        }
+
+        .id-input::placeholder {
+            letter-spacing: 4px;
+            font-size: 1.6rem;
+            color: #9aafc4;
+            opacity: 0.7;
+        }
+
+        /* زر تم مع انيميشن */
+        .btn-done {
+            background: #1e3a6f;
+            border: none;
+            color: white;
+            font-size: 1.8rem;
+            font-weight: bold;
+            padding: 18px 50px;
+            border-radius: 60px;
+            cursor: pointer;
+            box-shadow: 0 12px 20px -8px rgba(20, 50, 90, 0.3);
+            transition: all 0.15s;
+            border: 1px solid #ffffff30;
+            min-width: 200px;
+            margin-top: 10px;
+        }
+
+        .btn-done:hover {
+            background: #244b85;
+            transform: scale(1.02);
+        }
+
+        .btn-done:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /* انيميشن عند الضغط */
+        .btn-done.animate-click {
+            animation: pulsePop 0.28s ease-in-out;
+        }
+
+        @keyframes pulsePop {
+            0% { transform: scale(1); }
+            40% { transform: scale(0.92); background: #102b4e; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+            70% { transform: scale(1.05); background: #2b558b; }
+            100% { transform: scale(1); }
+        }
+
+        .error-msg {
+            color: #c23b3b;
+            margin-top: 18px;
+            font-weight: 500;
+            min-height: 28px;
+        }
+
+        .info-message {
+            color: #1e3a6f;
+            margin-top: 15px;
+            font-size: 0.95rem;
+        }
+
+        /* ---------- الصفحة الثانية (النتيجة) ---------- */
+        .result-header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: space-between;
+            border-bottom: 3px solid #b0c7df;
+            padding-bottom: 18px;
+            margin-bottom: 28px;
+        }
+
+        .student-main-info h2 {
+            font-size: 2.3rem;
+            color: #0b1e32;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        .student-main-info .details-row {
+            display: flex;
+            gap: 30px;
+            margin-top: 12px;
+            font-size: 1.3rem;
+            color: #1e3a6f;
+            flex-wrap: wrap;
+        }
+
+        .rank-badge {
+            background: #1e3a6f;
+            color: white;
+            padding: 8px 28px;
+            border-radius: 60px;
+            font-size: 1.8rem;
+            font-weight: 700;
+            box-shadow: 0 8px 14px rgba(0,0,0,0.08);
+            display: inline-block;
+        }
+
+        .average-box {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #0b3b2c;
+            background: #e1f0e8;
+            padding: 6px 26px;
+            border-radius: 60px;
+            border: 1px solid #aaccbb;
+        }
+
+        .back-btn {
+            background: none;
+            border: 2px solid #1e3a6f;
+            color: #1e3a6f;
+            padding: 10px 24px;
+            border-radius: 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+            margin-bottom: 15px;
+        }
+
+        .back-btn:hover {
+            background: #1e3a6f20;
+        }
+
+        /* جدول العلامات */
+        .marks-table-container {
+            overflow-x: auto;
+            margin-top: 20px;
+            border-radius: 24px;
+            background: #ffffffc2;
+            backdrop-filter: blur(4px);
+            padding: 4px;
+        }
+
+        .marks-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 1.1rem;
+            min-width: 600px;
+        }
+
+        .marks-table th {
+            background: #1e3a6f;
+            color: white;
+            padding: 18px 10px;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        .marks-table td {
+            padding: 15px 8px;
+            border-bottom: 1px solid #cfdde9;
+            background-color: #ffffffd6;
+        }
+
+        .marks-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .marks-table th:first-child {
+            border-radius: 0 20px 0 0;
+        }
+        .marks-table th:last-child {
+            border-radius: 20px 0 0 0;
+        }
+
+        .subject-name {
+            font-weight: 600;
+            color: #0b1e32;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        .total-mark-col {
+            font-weight: 700;
+            background-color: #f0f5fe;
+        }
+
+        .missing-mark {
+            color: #9e2f2f;
+            font-weight: 500;
+            background: #ffe6e6;
+        }
+
+        .no-data-message {
+            padding: 30px;
+            text-align: center;
+            font-size: 1.3rem;
+            color: #5d7188;
+        }
+
+        .data-status {
+            text-align: left;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #4d627c;
+            padding: 10px;
+            border-top: 1px dashed #b0c7df;
+        }
+
+        @media (max-width: 600px) {
+            .app-container { padding: 18px 14px; }
+            h1 { font-size: 1.7rem; }
+            .btn-done { font-size: 1.4rem; padding: 14px 30px; }
+            .student-main-info h2 { font-size: 1.9rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- شاشة التحميل الأولية -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <h3 style="color: #1e3a6f; margin-bottom: 10px;">جاري تحميل البيانات</h3>
+            <p style="color: #5d7188;">يرجى الانتظار...</p>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <!-- الصفحة الأولى -->
+        <div id="page1" class="page">
+            <div class="search-section">
+                <div class="university-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h1>بوابة النتائج</h1>
+                <div class="subhead">كلية الهندسة المعلوماتية</div>
+
+                <div class="input-wrapper">
+                    <div class="input-label">🔍 الرقم الجامعي</div>
+                    <input type="text" id="studentIdInput" class="id-input" placeholder="6984" maxlength="4" inputmode="numeric" pattern="\d*" value="">
+                </div>
+                <button class="btn-done" id="submitBtn">تم</button>
+                <div id="errorMessage" class="error-msg"></div>
+                <div id="dataStatus" class="info-message"></div>
+            </div>
+        </div>
+
+        <!-- الصفحة الثانية -->
+        <div id="page2" class="page">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <button class="back-btn" id="backBtn"><i class="fas fa-arrow-right"></i> عودة للبحث</button>
+            </div>
+            <div id="studentResultArea">
+                <div class="no-data-message">الرجاء إدخال رقم جامعي صحيح</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function(){
+            "use strict";
+
+            // ---------- قاعدة البيانات (ستُملأ من JSON) ----------
+            let DATABASE = {
+                total_students: 0,
+                students: []
+            };
+
+            // قائمة المواد الثابتة (بالترتيب المطلوب)
+            const SUBJECT_ORDER = [
+                "خوارزميات وبنى المعطيات 2",
+                "رسوميات حاسوبية ",
+                "قواعد المعطيات 1",
+                "معالج مصغّر",
+                "معالجة الإشارة",
+                "نظريّة المخطّطات",
+                "نظرية المعلومات"
+            ];
+
+            // بيانات احتياطية في حال فشل تحميل JSON
+            const FALLBACK_DATA = {
+                total_students: 4,
+                students: [
+                    {
+                        student_id: "6984",
+                        student_name: "محمد بيطار معتوق",
+                        subjects: {
+                            "خوارزميات وبنى المعطيات 2": { practical_mark: 24, theoretical_mark: 55, total_mark: 79 },
+                            "رسوميات حاسوبية ": { practical_mark: "-", theoretical_mark: 70, total_mark: 70 },
+                            "قواعد المعطيات 1": { practical_mark: 30, theoretical_mark: "غائب", total_mark: 30 },
+                            "معالج مصغّر": { practical_mark: 27, theoretical_mark: 60, total_mark: 87 },
+                            "معالجة الإشارة": { practical_mark: 28, theoretical_mark: 65, total_mark: 93 },
+                            "نظريّة المخطّطات": { practical_mark: 29, theoretical_mark: 58, total_mark: 87 },
+                            "نظرية المعلومات": { practical_mark: 30, theoretical_mark: 68, total_mark: 98 }
+                        },
+                        average: 89.50,
+                        rank: 8
+                    },
+                    {
+                        student_id: "7110",
+                        student_name: "فيريل فرجو",
+                        subjects: {
+                            "خوارزميات وبنى المعطيات 2": { practical_mark: 26, theoretical_mark: 60, total_mark: 86 },
+                            "رسوميات حاسوبية ": { practical_mark: 29, theoretical_mark: 64, total_mark: 93 },
+                            "قواعد المعطيات 1": { practical_mark: 25, theoretical_mark: 66, total_mark: 91 },
+                            "معالج مصغّر": { practical_mark: 28, theoretical_mark: 70, total_mark: 98 },
+                            "معالجة الإشارة": { practical_mark: 30, theoretical_mark: 63, total_mark: 93 },
+                            "نظريّة المخطّطات": { practical_mark: 28, theoretical_mark: 64, total_mark: 92 },
+                            "نظرية المعلومات": { practical_mark: 30, theoretical_mark: 70, total_mark: 100 }
+                        },
+                        average: 93.29,
+                        rank: 1
+                    }
+                ]
+            };
+
+            // ---------- عناصر DOM ----------
+            const loadingOverlay = document.getElementById('loadingOverlay');
+            const page1 = document.getElementById('page1');
+            const page2 = document.getElementById('page2');
+            const studentIdInput = document.getElementById('studentIdInput');
+            const submitBtn = document.getElementById('submitBtn');
+            const errorMsg = document.getElementById('errorMessage');
+            const dataStatus = document.getElementById('dataStatus');
+            const backBtn = document.getElementById('backBtn');
+            const studentResultArea = document.getElementById('studentResultArea');
+
+            // ---------- دوال تحميل البيانات ----------
+            async function loadStudentsData() {
+                try {
+                    console.log('🔄 جاري تحميل البيانات من students.json...');
+                    
+                    const response = await fetch('./students.json');
+                    
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    
+                    const data = await response.json();
+                    
+                    // التحقق من صحة البيانات
+                    if (data && data.students && Array.isArray(data.students)) {
+                        DATABASE = data;
+                        console.log(`✅ تم تحميل ${DATABASE.total_students || DATABASE.students.length} طالب بنجاح`);
+                        
+                        // تحديث رسالة الحالة
+                        if (dataStatus) {
+                            dataStatus.innerHTML = `✅ تم تحميل بيانات ${DATABASE.students.length} طالب`;
+                            dataStatus.style.color = '#2d6a4f';
+                        }
+                        
+                        return true;
+                    } else {
+                        throw new Error('تنسيق البيانات غير صحيح');
+                    }
+                    
+                } catch (error) {
+                    console.error('❌ خطأ في تحميل البيانات:', error);
+                    
+                    // استخدام البيانات الاحتياطية
+                    DATABASE = FALLBACK_DATA;
+                    
+                    if (dataStatus) {
+                        dataStatus.innerHTML = `⚠️ استخدام بيانات افتراضية (تعذر تحميل الملف)`;
+                        dataStatus.style.color = '#b45309';
+                    }
+                    
+                    return false;
+                } finally {
+                    // إخفاء شاشة التحميل
+                    if (loadingOverlay) {
+                        loadingOverlay.style.display = 'none';
+                    }
+                }
+            }
+
+            // ---------- دوال مساعدة ----------
+            function formatNumber(value, decimals = 2) {
+                if (value === undefined || value === null) return '0.00';
+                let num = parseFloat(value);
+                if (isNaN(num)) return '0.00';
+                return num.toFixed(decimals);
+            }
+
+            // تحويل أي قيمة (غائب، "-"، نص) إلى 0
+            function normalizeMark(mark) {
+                if (mark === undefined || mark === null) return 0;
+                if (typeof mark === 'string') {
+                    let trimmed = mark.trim();
+                    if (trimmed === '-' || trimmed === 'غائب' || trimmed === '') return 0;
+                    let parsed = parseFloat(trimmed);
+                    return isNaN(parsed) ? 0 : parsed;
+                }
+                if (typeof mark === 'number') return mark;
+                return 0;
+            }
+
+            // استخراج العلامات المعروضة
+            function getDisplayMarks(subjectData) {
+                if (!subjectData) {
+                    return { practical: 0, theoretical: 0, total: 0 };
+                }
+                
+                let practical = normalizeMark(subjectData.practical_mark);
+                let theoretical = normalizeMark(subjectData.theoretical_mark);
+                let total = normalizeMark(subjectData.total_mark);
+
+                return { practical, theoretical, total };
+            }
+
+            // البحث عن طالب
+            function findStudentById(id) {
+                if (!id || id.length !== 4) return null;
+                return DATABASE.students.find(s => s.student_id === id) || null;
+            }
+
+            // عرض الصفحة الثانية
+            function renderStudentPage(student) {
+                if (!student) {
+                    studentResultArea.innerHTML = `<div class="no-data-message">❌ لم يتم العثور على الطالب بالرقم المدخل</div>`;
+                    return;
+                }
+
+                const avgFormatted = formatNumber(student.average, 2).replace('.', ',');
+                const rank = student.rank || '---';
+
+                // بناء جدول المواد
+                let tableRowsHtml = '';
+                for (let subjName of SUBJECT_ORDER) {
+                    const subjData = student.subjects[subjName];
+                    let marks;
+                    let isMissing = false;
+                    
+                    if (!subjData) {
+                        marks = { practical: 0, theoretical: 0, total: 0 };
+                        isMissing = true;
+                    } else {
+                        marks = getDisplayMarks(subjData);
+                        const rawP = subjData.practical_mark;
+                        const rawT = subjData.theoretical_mark;
+                        if ((typeof rawP === 'string' && (rawP === '-' || rawP === 'غائب')) ||
+                            (typeof rawT === 'string' && (rawT === '-' || rawT === 'غائب'))) {
+                            isMissing = true;
+                        }
+                    }
+
+                    tableRowsHtml += `<tr>
+                        <td class="subject-name">${subjName}</td>
+                        <td class="${isMissing ? 'missing-mark' : ''}">${marks.practical}</td>
+                        <td class="${isMissing ? 'missing-mark' : ''}">${marks.theoretical}</td>
+                        <td class="total-mark-col ${isMissing ? 'missing-mark' : ''}">${marks.total}</td>
+                    </tr>`;
+                }
+
+                const html = `
+                    <div class="result-header">
+                        <div class="student-main-info">
+                            <h2>${student.student_name}</h2>
+                            <div class="details-row">
+                                <span><i class="fas fa-id-card"></i> الرقم الجامعي: ${student.student_id}</span>
+                                <span><i class="fas fa-trophy"></i> الترتيب: ${rank}</span>
+                            </div>
+                        </div>
+                        <div class="average-box">
+                            المعدل: ${avgFormatted}
+                        </div>
+                    </div>
+                    <div class="marks-table-container">
+                        <table class="marks-table">
+                            <thead>
+                                <tr>
+                                    <th>المادة</th>
+                                    <th>العلامة العملية</th>
+                                    <th>العلامة النظرية</th>
+                                    <th>العلامة الكلية</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${tableRowsHtml}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="data-status">
+                        * تظهر العلامة 0 في حال وجود غياب أو شرطة "-" | إجمالي الطلاب: ${DATABASE.total_students || DATABASE.students.length}
+                    </div>
+                `;
+                studentResultArea.innerHTML = html;
+            }
+
+            // التبديل إلى الصفحة الأولى
+            function showPage1() {
+                page1.classList.add('active');
+                page2.classList.remove('active');
+                studentIdInput.value = '';
+                errorMsg.textContent = '';
+                studentResultArea.innerHTML = `<div class="no-data-message">الرجاء إدخال رقم جامعي صحيح</div>`;
+            }
+
+            // التبديل إلى الصفحة الثانية
+            function showPage2WithStudentId(id) {
+                const student = findStudentById(id);
+                if (!student) {
+                    errorMsg.textContent = '⚠️ الرقم الجامعي غير موجود، تأكد من 4 خانات';
+                    return false;
+                }
+                errorMsg.textContent = '';
+                renderStudentPage(student);
+                page1.classList.remove('active');
+                page2.classList.add('active');
+                return true;
+            }
+
+            // ---------- معالجة الأحداث ----------
+            function handleSubmit() {
+                let rawId = studentIdInput.value.trim();
+                
+                if (!/^\d{4}$/.test(rawId)) {
+                    errorMsg.textContent = '❌ الرجاء إدخال رقم جامعي مكون من 4 أرقام';
+                    submitBtn.classList.add('animate-click');
+                    setTimeout(() => submitBtn.classList.remove('animate-click'), 300);
+                    return;
+                }
+
+                // تعطيل الزر مؤقتاً أثناء البحث
+                submitBtn.disabled = true;
+                submitBtn.classList.add('animate-click');
+                setTimeout(() => {
+                    submitBtn.classList.remove('animate-click');
+                    submitBtn.disabled = false;
+                }, 300);
+
+                const success = showPage2WithStudentId(rawId);
+                if (!success) {
+                    errorMsg.textContent = '⚠️ الرقم الجامعي غير موجود في قاعدة البيانات';
+                }
+            }
+
+            function handleBack() {
+                showPage1();
+            }
+
+            // ---------- ربط الأحداث ----------
+            submitBtn.addEventListener('click', handleSubmit);
+            
+            studentIdInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    handleSubmit();
+                }
+            });
+
+            studentIdInput.addEventListener('input', function() {
+                this.value = this.value.replace(/[^0-9]/g, '').slice(0, 4);
+            });
+
+            backBtn.addEventListener('click', handleBack);
+
+            // ---------- تهيئة التطبيق ----------
+            async function initializeApp() {
+                await loadStudentsData();
+                showPage1();
+            }
+
+            // بدء التطبيق
+            initializeApp();
+
+        })();
+    </script>
+</body>
+</html>

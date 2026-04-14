@@ -1,5 +1,5 @@
 {
-  "total_students": 874,
+  "total_students": 641,
   "students": [
     {
       "student_id": "7110",
@@ -475,6 +475,49 @@
       "rank": 11
     },
     {
+      "student_id": "8157",
+      "student_name": "حمزة رشيد",
+      "subjects": {
+        "خوارزميات وبنى المعطيات 2": {
+          "practical_mark": 28,
+          "theoretical_mark": 54,
+          "total_mark": 82
+        },
+        "رسوميات حاسوبية ": {
+          "practical_mark": 28,
+          "theoretical_mark": 60,
+          "total_mark": 88
+        },
+        "معالج مصغّر": {
+          "practical_mark": 29,
+          "theoretical_mark": 56,
+          "total_mark": 85
+        },
+        "معالجة الإشارة": {
+          "practical_mark": 30,
+          "theoretical_mark": 54,
+          "total_mark": 84
+        },
+        "نظريّة المخطّطات": {
+          "practical_mark": 27,
+          "theoretical_mark": 60,
+          "total_mark": 87
+        },
+        "نظرية المعلومات": {
+          "practical_mark": 30,
+          "theoretical_mark": 64,
+          "total_mark": 94
+        },
+        "قواعد المعطيات 1": {
+          "practical_mark": "29",
+          "theoretical_mark": "64",
+          "total_mark": 93
+        }
+      },
+      "average": 87.57,
+      "rank": 12
+    },
+    {
       "student_id": "1924",
       "student_name": "جاسم الحنان",
       "subjects": {
@@ -515,7 +558,7 @@
         }
       },
       "average": 87.43,
-      "rank": 12
+      "rank": 13
     },
     {
       "student_id": "7253",
@@ -558,7 +601,7 @@
         }
       },
       "average": 87.29,
-      "rank": 13
+      "rank": 14
     },
     {
       "student_id": "7179",
@@ -601,7 +644,7 @@
         }
       },
       "average": 87.0,
-      "rank": 14
+      "rank": 15
     },
     {
       "student_id": "7501",
@@ -644,7 +687,7 @@
         }
       },
       "average": 86.71,
-      "rank": 15
+      "rank": 16
     },
     {
       "student_id": "7477",
@@ -687,7 +730,7 @@
         }
       },
       "average": 86.57,
-      "rank": 16
+      "rank": 17
     },
     {
       "student_id": "8167",
@@ -730,7 +773,7 @@
         }
       },
       "average": 86.57,
-      "rank": 17
+      "rank": 18
     },
     {
       "student_id": "7078",
@@ -773,7 +816,7 @@
         }
       },
       "average": 86.29,
-      "rank": 18
+      "rank": 19
     },
     {
       "student_id": "7022",
@@ -816,7 +859,7 @@
         }
       },
       "average": 86.14,
-      "rank": 19
+      "rank": 20
     },
     {
       "student_id": "7199",
@@ -859,7 +902,7 @@
         }
       },
       "average": 85.86,
-      "rank": 20
+      "rank": 21
     },
     {
       "student_id": "8168",
@@ -902,7 +945,7 @@
         }
       },
       "average": 85.71,
-      "rank": 21
+      "rank": 22
     },
     {
       "student_id": "7425",
@@ -945,7 +988,7 @@
         }
       },
       "average": 85.57,
-      "rank": 22
+      "rank": 23
     },
     {
       "student_id": "7301",
@@ -988,7 +1031,7 @@
         }
       },
       "average": 85.57,
-      "rank": 23
+      "rank": 24
     },
     {
       "student_id": "7255",
@@ -1031,7 +1074,7 @@
         }
       },
       "average": 85.43,
-      "rank": 24
+      "rank": 25
     },
     {
       "student_id": "7171",
@@ -1074,7 +1117,7 @@
         }
       },
       "average": 84.71,
-      "rank": 25
+      "rank": 26
     },
     {
       "student_id": "7374",
@@ -1117,7 +1160,7 @@
         }
       },
       "average": 84.29,
-      "rank": 26
+      "rank": 27
     },
     {
       "student_id": "7097",
@@ -1157,49 +1200,6 @@
           "practical_mark": 29,
           "theoretical_mark": 58,
           "total_mark": 87
-        }
-      },
-      "average": 84.14,
-      "rank": 27
-    },
-    {
-      "student_id": "8157",
-      "student_name": "حمزة رشيد",
-      "subjects": {
-        "خوارزميات وبنى المعطيات 2": {
-          "practical_mark": 28,
-          "theoretical_mark": 54,
-          "total_mark": 82
-        },
-        "رسوميات حاسوبية ": {
-          "practical_mark": 28,
-          "theoretical_mark": 60,
-          "total_mark": 88
-        },
-        "معالج مصغّر": {
-          "practical_mark": 29,
-          "theoretical_mark": 56,
-          "total_mark": 85
-        },
-        "معالجة الإشارة": {
-          "practical_mark": 30,
-          "theoretical_mark": 54,
-          "total_mark": 84
-        },
-        "نظريّة المخطّطات": {
-          "practical_mark": 27,
-          "theoretical_mark": 60,
-          "total_mark": 87
-        },
-        "نظرية المعلومات": {
-          "practical_mark": 30,
-          "theoretical_mark": 64,
-          "total_mark": 94
-        },
-        "قواعد المعطيات 1": {
-          "practical_mark": "15",
-          "theoretical_mark": "54",
-          "total_mark": 69
         }
       },
       "average": 84.14,
@@ -24039,6 +24039,5 @@
       "average": 10.14,
       "rank": 641
     }
-    
   ]
 }

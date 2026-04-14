@@ -1,5 +1,5 @@
 {
-  "total_students": 641,
+  "total_students": 589,
   "students": [
     {
       "student_id": "7110",
@@ -4302,6 +4302,49 @@
       "rank": 100
     },
     {
+      "student_id": "6961",
+      "student_name": "يوسف شعبان عرجه",
+      "subjects": {
+        "خوارزميات وبنى المعطيات 2": {
+          "practical_mark": 20,
+          "theoretical_mark": 51,
+          "total_mark": 71
+        },
+        "رسوميات حاسوبية ": {
+          "practical_mark": 30,
+          "theoretical_mark": 58,
+          "total_mark": 88
+        },
+        "قواعد المعطيات 1": {
+          "practical_mark": 30,
+          "theoretical_mark": 0,
+          "total_mark": 30
+        },
+        "معالجة الإشارة": {
+          "practical_mark": 28,
+          "theoretical_mark": 57,
+          "total_mark": 85
+        },
+        "نظريّة المخطّطات": {
+          "practical_mark": 28,
+          "theoretical_mark": 60,
+          "total_mark": 88
+        },
+        "نظرية المعلومات": {
+          "practical_mark": 30,
+          "theoretical_mark": 56,
+          "total_mark": 86
+        },
+        "معالج مصغّر": {
+          "practical_mark": "23",
+          "theoretical_mark": "64",
+          "total_mark": 87
+        }
+      },
+      "average": 76.43,
+      "rank": 101
+    },
+    {
       "student_id": "7373",
       "student_name": "هلا استانبولي",
       "subjects": {
@@ -4342,7 +4385,7 @@
         }
       },
       "average": 76.29,
-      "rank": 101
+      "rank": 102
     },
     {
       "student_id": "7239",
@@ -4385,7 +4428,7 @@
         }
       },
       "average": 76.14,
-      "rank": 102
+      "rank": 103
     },
     {
       "student_id": "9698",
@@ -4428,7 +4471,7 @@
         }
       },
       "average": 76.14,
-      "rank": 103
+      "rank": 104
     },
     {
       "student_id": "7394",
@@ -4471,7 +4514,7 @@
         }
       },
       "average": 76.0,
-      "rank": 104
+      "rank": 105
     },
     {
       "student_id": "7336",
@@ -4514,7 +4557,7 @@
         }
       },
       "average": 76.0,
-      "rank": 105
+      "rank": 106
     },
     {
       "student_id": "7028",
@@ -4557,7 +4600,7 @@
         }
       },
       "average": 75.86,
-      "rank": 106
+      "rank": 107
     },
     {
       "student_id": "8395",
@@ -4600,7 +4643,7 @@
         }
       },
       "average": 75.86,
-      "rank": 107
+      "rank": 108
     },
     {
       "student_id": "7294",
@@ -4643,7 +4686,7 @@
         }
       },
       "average": 75.71,
-      "rank": 108
+      "rank": 109
     },
     {
       "student_id": "6982",
@@ -4686,7 +4729,7 @@
         }
       },
       "average": 75.71,
-      "rank": 109
+      "rank": 110
     },
     {
       "student_id": "7418",
@@ -4729,7 +4772,7 @@
         }
       },
       "average": 75.71,
-      "rank": 110
+      "rank": 111
     },
     {
       "student_id": "7338",
@@ -4772,7 +4815,7 @@
         }
       },
       "average": 75.57,
-      "rank": 111
+      "rank": 112
     },
     {
       "student_id": "7137",
@@ -4815,7 +4858,7 @@
         }
       },
       "average": 75.29,
-      "rank": 112
+      "rank": 113
     },
     {
       "student_id": "7335",
@@ -4858,7 +4901,7 @@
         }
       },
       "average": 75.14,
-      "rank": 113
+      "rank": 114
     },
     {
       "student_id": "7491",
@@ -4901,7 +4944,7 @@
         }
       },
       "average": 75.14,
-      "rank": 114
+      "rank": 115
     },
     {
       "student_id": "6981",
@@ -4944,7 +4987,7 @@
         }
       },
       "average": 75.14,
-      "rank": 115
+      "rank": 116
     },
     {
       "student_id": "7170",
@@ -4987,7 +5030,7 @@
         }
       },
       "average": 75.0,
-      "rank": 116
+      "rank": 117
     },
     {
       "student_id": "7322",
@@ -5030,7 +5073,7 @@
         }
       },
       "average": 74.86,
-      "rank": 117
+      "rank": 118
     },
     {
       "student_id": "7127",
@@ -5073,7 +5116,7 @@
         }
       },
       "average": 74.86,
-      "rank": 118
+      "rank": 119
     },
     {
       "student_id": "7117",
@@ -5116,7 +5159,7 @@
         }
       },
       "average": 74.86,
-      "rank": 119
+      "rank": 120
     },
     {
       "student_id": "7424",
@@ -5159,7 +5202,7 @@
         }
       },
       "average": 74.71,
-      "rank": 120
+      "rank": 121
     },
     {
       "student_id": "6934",
@@ -5202,7 +5245,7 @@
         }
       },
       "average": 74.71,
-      "rank": 121
+      "rank": 122
     },
     {
       "student_id": "7384",
@@ -5240,7 +5283,7 @@
         }
       },
       "average": 74.71,
-      "rank": 122
+      "rank": 123
     },
     {
       "student_id": "7222",
@@ -5283,7 +5326,7 @@
         }
       },
       "average": 74.57,
-      "rank": 123
+      "rank": 124
     },
     {
       "student_id": "7303",
@@ -5326,7 +5369,7 @@
         }
       },
       "average": 74.43,
-      "rank": 124
+      "rank": 125
     },
     {
       "student_id": "7215",
@@ -5369,7 +5412,7 @@
         }
       },
       "average": 74.29,
-      "rank": 125
+      "rank": 126
     },
     {
       "student_id": "7107",
@@ -5412,7 +5455,7 @@
         }
       },
       "average": 74.14,
-      "rank": 126
+      "rank": 127
     },
     {
       "student_id": "7032",
@@ -5455,7 +5498,7 @@
         }
       },
       "average": 74.14,
-      "rank": 127
+      "rank": 128
     },
     {
       "student_id": "7502",
@@ -5498,7 +5541,7 @@
         }
       },
       "average": 74.14,
-      "rank": 128
+      "rank": 129
     },
     {
       "student_id": "7267",
@@ -5541,7 +5584,7 @@
         }
       },
       "average": 73.86,
-      "rank": 129
+      "rank": 130
     },
     {
       "student_id": "5649",
@@ -5584,7 +5627,7 @@
         }
       },
       "average": 73.86,
-      "rank": 130
+      "rank": 131
     },
     {
       "student_id": "5900",
@@ -5627,7 +5670,7 @@
         }
       },
       "average": 73.71,
-      "rank": 131
+      "rank": 132
     },
     {
       "student_id": "7108",
@@ -5670,7 +5713,7 @@
         }
       },
       "average": 73.57,
-      "rank": 132
+      "rank": 133
     },
     {
       "student_id": "7417",
@@ -5713,7 +5756,7 @@
         }
       },
       "average": 73.14,
-      "rank": 133
+      "rank": 134
     },
     {
       "student_id": "7292",
@@ -5756,7 +5799,7 @@
         }
       },
       "average": 73.14,
-      "rank": 134
+      "rank": 135
     },
     {
       "student_id": "7077",
@@ -5799,7 +5842,7 @@
         }
       },
       "average": 73.0,
-      "rank": 135
+      "rank": 136
     },
     {
       "student_id": "7071",
@@ -5842,7 +5885,7 @@
         }
       },
       "average": 72.86,
-      "rank": 136
+      "rank": 137
     },
     {
       "student_id": "7129",
@@ -5885,7 +5928,7 @@
         }
       },
       "average": 72.71,
-      "rank": 137
+      "rank": 138
     },
     {
       "student_id": "7047",
@@ -5928,7 +5971,7 @@
         }
       },
       "average": 72.57,
-      "rank": 138
+      "rank": 139
     },
     {
       "student_id": "7046",
@@ -5971,7 +6014,7 @@
         }
       },
       "average": 72.57,
-      "rank": 139
+      "rank": 140
     },
     {
       "student_id": "7208",
@@ -6014,7 +6057,7 @@
         }
       },
       "average": 72.57,
-      "rank": 140
+      "rank": 141
     },
     {
       "student_id": "7413",
@@ -6052,7 +6095,7 @@
         }
       },
       "average": 72.43,
-      "rank": 141
+      "rank": 142
     },
     {
       "student_id": "6975",
@@ -6095,7 +6138,7 @@
         }
       },
       "average": 72.43,
-      "rank": 142
+      "rank": 143
     },
     {
       "student_id": "7337",
@@ -6138,7 +6181,7 @@
         }
       },
       "average": 72.43,
-      "rank": 143
+      "rank": 144
     },
     {
       "student_id": "6956",
@@ -6181,7 +6224,7 @@
         }
       },
       "average": 72.43,
-      "rank": 144
+      "rank": 145
     },
     {
       "student_id": "7375",
@@ -6224,7 +6267,7 @@
         }
       },
       "average": 72.29,
-      "rank": 145
+      "rank": 146
     },
     {
       "student_id": "7251",
@@ -6267,7 +6310,7 @@
         }
       },
       "average": 72.14,
-      "rank": 146
+      "rank": 147
     },
     {
       "student_id": "7069",
@@ -6310,7 +6353,7 @@
         }
       },
       "average": 72.14,
-      "rank": 147
+      "rank": 148
     },
     {
       "student_id": "7017",
@@ -6353,7 +6396,7 @@
         }
       },
       "average": 72.0,
-      "rank": 148
+      "rank": 149
     },
     {
       "student_id": "8165",
@@ -6396,7 +6439,7 @@
         }
       },
       "average": 72.0,
-      "rank": 149
+      "rank": 150
     },
     {
       "student_id": "7016",
@@ -6439,7 +6482,7 @@
         }
       },
       "average": 71.71,
-      "rank": 150
+      "rank": 151
     },
     {
       "student_id": "7310",
@@ -6482,7 +6525,7 @@
         }
       },
       "average": 71.71,
-      "rank": 151
+      "rank": 152
     },
     {
       "student_id": "7415",
@@ -6525,7 +6568,7 @@
         }
       },
       "average": 71.71,
-      "rank": 152
+      "rank": 153
     },
     {
       "student_id": "6686",
@@ -6568,7 +6611,7 @@
         }
       },
       "average": 71.57,
-      "rank": 153
+      "rank": 154
     },
     {
       "student_id": "8249",
@@ -6611,7 +6654,7 @@
         }
       },
       "average": 71.57,
-      "rank": 154
+      "rank": 155
     },
     {
       "student_id": "7100",
@@ -6654,7 +6697,7 @@
         }
       },
       "average": 71.43,
-      "rank": 155
+      "rank": 156
     },
     {
       "student_id": "7034",
@@ -6697,7 +6740,7 @@
         }
       },
       "average": 71.43,
-      "rank": 156
+      "rank": 157
     },
     {
       "student_id": "6491",
@@ -6740,7 +6783,7 @@
         }
       },
       "average": 71.43,
-      "rank": 157
+      "rank": 158
     },
     {
       "student_id": "7500",
@@ -6783,7 +6826,7 @@
         }
       },
       "average": 71.29,
-      "rank": 158
+      "rank": 159
     },
     {
       "student_id": "8356",
@@ -6826,7 +6869,7 @@
         }
       },
       "average": 71.29,
-      "rank": 159
+      "rank": 160
     },
     {
       "student_id": "7076",
@@ -6869,7 +6912,7 @@
         }
       },
       "average": 71.0,
-      "rank": 160
+      "rank": 161
     },
     {
       "student_id": "6853",
@@ -6912,7 +6955,7 @@
         }
       },
       "average": 71.0,
-      "rank": 161
+      "rank": 162
     },
     {
       "student_id": "8358",
@@ -6955,7 +6998,7 @@
         }
       },
       "average": 71.0,
-      "rank": 162
+      "rank": 163
     },
     {
       "student_id": "7393",
@@ -6998,7 +7041,7 @@
         }
       },
       "average": 70.86,
-      "rank": 163
+      "rank": 164
     },
     {
       "student_id": "7347",
@@ -7041,7 +7084,7 @@
         }
       },
       "average": 70.71,
-      "rank": 164
+      "rank": 165
     },
     {
       "student_id": "6074",
@@ -7084,7 +7127,7 @@
         }
       },
       "average": 70.57,
-      "rank": 165
+      "rank": 166
     },
     {
       "student_id": "7124",
@@ -7127,7 +7170,7 @@
         }
       },
       "average": 70.43,
-      "rank": 166
+      "rank": 167
     },
     {
       "student_id": "7149",
@@ -7170,7 +7213,7 @@
         }
       },
       "average": 70.29,
-      "rank": 167
+      "rank": 168
     },
     {
       "student_id": "8159",
@@ -7213,7 +7256,7 @@
         }
       },
       "average": 70.29,
-      "rank": 168
+      "rank": 169
     },
     {
       "student_id": "7006",
@@ -7256,7 +7299,7 @@
         }
       },
       "average": 70.14,
-      "rank": 169
+      "rank": 170
     },
     {
       "student_id": "7134",
@@ -7299,7 +7342,7 @@
         }
       },
       "average": 70.0,
-      "rank": 170
+      "rank": 171
     },
     {
       "student_id": "7371",
@@ -7342,7 +7385,7 @@
         }
       },
       "average": 70.0,
-      "rank": 171
+      "rank": 172
     },
     {
       "student_id": "7309",
@@ -7385,7 +7428,7 @@
         }
       },
       "average": 69.86,
-      "rank": 172
+      "rank": 173
     },
     {
       "student_id": "8268",
@@ -7428,7 +7471,7 @@
         }
       },
       "average": 69.86,
-      "rank": 173
+      "rank": 174
     },
     {
       "student_id": "7441",
@@ -7471,7 +7514,7 @@
         }
       },
       "average": 69.86,
-      "rank": 174
+      "rank": 175
     },
     {
       "student_id": "7116",
@@ -7514,7 +7557,7 @@
         }
       },
       "average": 69.71,
-      "rank": 175
+      "rank": 176
     },
     {
       "student_id": "7260",
@@ -7557,7 +7600,7 @@
         }
       },
       "average": 69.71,
-      "rank": 176
+      "rank": 177
     },
     {
       "student_id": "7003",
@@ -7600,7 +7643,7 @@
         }
       },
       "average": 69.57,
-      "rank": 177
+      "rank": 178
     },
     {
       "student_id": "8154",
@@ -7643,7 +7686,7 @@
         }
       },
       "average": 69.57,
-      "rank": 178
+      "rank": 179
     },
     {
       "student_id": "2394",
@@ -7686,7 +7729,7 @@
         }
       },
       "average": 69.43,
-      "rank": 179
+      "rank": 180
     },
     {
       "student_id": "8365",
@@ -7724,7 +7767,7 @@
         }
       },
       "average": 69.29,
-      "rank": 180
+      "rank": 181
     },
     {
       "student_id": "7423",
@@ -7767,7 +7810,7 @@
         }
       },
       "average": 69.29,
-      "rank": 181
+      "rank": 182
     },
     {
       "student_id": "7138",
@@ -7810,7 +7853,7 @@
         }
       },
       "average": 69.14,
-      "rank": 182
+      "rank": 183
     },
     {
       "student_id": "7194",
@@ -7853,7 +7896,7 @@
         }
       },
       "average": 69.0,
-      "rank": 183
+      "rank": 184
     },
     {
       "student_id": "7089",
@@ -7896,7 +7939,7 @@
         }
       },
       "average": 69.0,
-      "rank": 184
+      "rank": 185
     },
     {
       "student_id": "7440",
@@ -7939,7 +7982,7 @@
         }
       },
       "average": 69.0,
-      "rank": 185
+      "rank": 186
     },
     {
       "student_id": "8170",
@@ -7982,7 +8025,7 @@
         }
       },
       "average": 68.86,
-      "rank": 186
+      "rank": 187
     },
     {
       "student_id": "7168",
@@ -8025,7 +8068,7 @@
         }
       },
       "average": 68.71,
-      "rank": 187
+      "rank": 188
     },
     {
       "student_id": "6946",
@@ -8068,7 +8111,7 @@
         }
       },
       "average": 68.71,
-      "rank": 188
+      "rank": 189
     },
     {
       "student_id": "8456",
@@ -8106,7 +8149,7 @@
         }
       },
       "average": 68.57,
-      "rank": 189
+      "rank": 190
     },
     {
       "student_id": "7350",
@@ -8149,7 +8192,7 @@
         }
       },
       "average": 68.43,
-      "rank": 190
+      "rank": 191
     },
     {
       "student_id": "6433",
@@ -8192,7 +8235,7 @@
         }
       },
       "average": 68.43,
-      "rank": 191
+      "rank": 192
     },
     {
       "student_id": "7091",
@@ -8235,7 +8278,7 @@
         }
       },
       "average": 68.29,
-      "rank": 192
+      "rank": 193
     },
     {
       "student_id": "7483",
@@ -8278,7 +8321,7 @@
         }
       },
       "average": 68.29,
-      "rank": 193
+      "rank": 194
     },
     {
       "student_id": "7383",
@@ -8321,7 +8364,7 @@
         }
       },
       "average": 68.0,
-      "rank": 194
+      "rank": 195
     },
     {
       "student_id": "6418",
@@ -8359,7 +8402,7 @@
         }
       },
       "average": 68.0,
-      "rank": 195
+      "rank": 196
     },
     {
       "student_id": "7221",
@@ -8397,7 +8440,7 @@
         }
       },
       "average": 67.71,
-      "rank": 196
+      "rank": 197
     },
     {
       "student_id": "7333",
@@ -8440,7 +8483,7 @@
         }
       },
       "average": 67.71,
-      "rank": 197
+      "rank": 198
     },
     {
       "student_id": "6360",
@@ -8483,7 +8526,7 @@
         }
       },
       "average": 67.57,
-      "rank": 198
+      "rank": 199
     },
     {
       "student_id": "7103",
@@ -8526,7 +8569,7 @@
         }
       },
       "average": 67.29,
-      "rank": 199
+      "rank": 200
     },
     {
       "student_id": "7096",
@@ -8569,7 +8612,7 @@
         }
       },
       "average": 67.29,
-      "rank": 200
+      "rank": 201
     },
     {
       "student_id": "7265",
@@ -8612,7 +8655,7 @@
         }
       },
       "average": 67.0,
-      "rank": 201
+      "rank": 202
     },
     {
       "student_id": "6544",
@@ -8655,7 +8698,7 @@
         }
       },
       "average": 67.0,
-      "rank": 202
+      "rank": 203
     },
     {
       "student_id": "7085",
@@ -8698,7 +8741,7 @@
         }
       },
       "average": 67.0,
-      "rank": 203
+      "rank": 204
     },
     {
       "student_id": "7507",
@@ -8741,7 +8784,7 @@
         }
       },
       "average": 66.86,
-      "rank": 204
+      "rank": 205
     },
     {
       "student_id": "7391",
@@ -8784,7 +8827,7 @@
         }
       },
       "average": 66.86,
-      "rank": 205
+      "rank": 206
     },
     {
       "student_id": "7061",
@@ -8827,7 +8870,7 @@
         }
       },
       "average": 66.71,
-      "rank": 206
+      "rank": 207
     },
     {
       "student_id": "7273",
@@ -8870,7 +8913,7 @@
         }
       },
       "average": 66.71,
-      "rank": 207
+      "rank": 208
     },
     {
       "student_id": "6990",
@@ -8913,7 +8956,7 @@
         }
       },
       "average": 66.71,
-      "rank": 208
+      "rank": 209
     },
     {
       "student_id": "7450",
@@ -8956,7 +8999,7 @@
         }
       },
       "average": 66.71,
-      "rank": 209
+      "rank": 210
     },
     {
       "student_id": "6503",
@@ -8999,7 +9042,7 @@
         }
       },
       "average": 66.71,
-      "rank": 210
+      "rank": 211
     },
     {
       "student_id": "8473",
@@ -9042,7 +9085,7 @@
         }
       },
       "average": 66.71,
-      "rank": 211
+      "rank": 212
     },
     {
       "student_id": "7286",
@@ -9085,7 +9128,7 @@
         }
       },
       "average": 66.43,
-      "rank": 212
+      "rank": 213
     },
     {
       "student_id": "8455",
@@ -9123,7 +9166,7 @@
         }
       },
       "average": 66.43,
-      "rank": 213
+      "rank": 214
     },
     {
       "student_id": "7261",
@@ -9166,7 +9209,7 @@
         }
       },
       "average": 66.43,
-      "rank": 214
+      "rank": 215
     },
     {
       "student_id": "8266",
@@ -9209,7 +9252,7 @@
         }
       },
       "average": 66.43,
-      "rank": 215
+      "rank": 216
     },
     {
       "student_id": "7304",
@@ -9252,7 +9295,7 @@
         }
       },
       "average": 66.14,
-      "rank": 216
+      "rank": 217
     },
     {
       "student_id": "7452",
@@ -9295,7 +9338,7 @@
         }
       },
       "average": 66.14,
-      "rank": 217
+      "rank": 218
     },
     {
       "student_id": "7269",
@@ -9338,7 +9381,7 @@
         }
       },
       "average": 65.86,
-      "rank": 218
+      "rank": 219
     },
     {
       "student_id": "6790",
@@ -9381,7 +9424,7 @@
         }
       },
       "average": 65.86,
-      "rank": 219
+      "rank": 220
     },
     {
       "student_id": "7193",
@@ -9424,7 +9467,7 @@
         }
       },
       "average": 65.86,
-      "rank": 220
+      "rank": 221
     },
     {
       "student_id": "7216",
@@ -9467,7 +9510,7 @@
         }
       },
       "average": 65.71,
-      "rank": 221
+      "rank": 222
     },
     {
       "student_id": "7002",
@@ -9510,7 +9553,7 @@
         }
       },
       "average": 65.71,
-      "rank": 222
+      "rank": 223
     },
     {
       "student_id": "7093",
@@ -9553,7 +9596,7 @@
         }
       },
       "average": 65.71,
-      "rank": 223
+      "rank": 224
     },
     {
       "student_id": "7523",
@@ -9596,7 +9639,7 @@
         }
       },
       "average": 65.57,
-      "rank": 224
+      "rank": 225
     },
     {
       "student_id": "7257",
@@ -9639,7 +9682,7 @@
         }
       },
       "average": 65.57,
-      "rank": 225
+      "rank": 226
     },
     {
       "student_id": "8255",
@@ -9682,7 +9725,7 @@
         }
       },
       "average": 65.57,
-      "rank": 226
+      "rank": 227
     },
     {
       "student_id": "7486",
@@ -9725,7 +9768,7 @@
         }
       },
       "average": 65.43,
-      "rank": 227
+      "rank": 228
     },
     {
       "student_id": "7131",
@@ -9768,7 +9811,7 @@
         }
       },
       "average": 65.43,
-      "rank": 228
+      "rank": 229
     },
     {
       "student_id": "6962",
@@ -9811,7 +9854,7 @@
         }
       },
       "average": 65.29,
-      "rank": 229
+      "rank": 230
     },
     {
       "student_id": "6728",
@@ -9854,7 +9897,7 @@
         }
       },
       "average": 65.14,
-      "rank": 230
+      "rank": 231
     },
     {
       "student_id": "7249",
@@ -9897,7 +9940,7 @@
         }
       },
       "average": 65.14,
-      "rank": 231
+      "rank": 232
     },
     {
       "student_id": "6999",
@@ -9940,7 +9983,7 @@
         }
       },
       "average": 65.14,
-      "rank": 232
+      "rank": 233
     },
     {
       "student_id": "7128",
@@ -9983,7 +10026,7 @@
         }
       },
       "average": 65.0,
-      "rank": 233
+      "rank": 234
     },
     {
       "student_id": "6979",
@@ -10026,7 +10069,7 @@
         }
       },
       "average": 64.86,
-      "rank": 234
+      "rank": 235
     },
     {
       "student_id": "7226",
@@ -10069,7 +10112,7 @@
         }
       },
       "average": 64.86,
-      "rank": 235
+      "rank": 236
     },
     {
       "student_id": "8284",
@@ -10112,7 +10155,7 @@
         }
       },
       "average": 64.71,
-      "rank": 236
+      "rank": 237
     },
     {
       "student_id": "7086",
@@ -10155,7 +10198,7 @@
         }
       },
       "average": 64.57,
-      "rank": 237
+      "rank": 238
     },
     {
       "student_id": "6852",
@@ -10198,7 +10241,7 @@
         }
       },
       "average": 64.43,
-      "rank": 238
+      "rank": 239
     },
     {
       "student_id": "6767",
@@ -10241,7 +10284,7 @@
         }
       },
       "average": 64.29,
-      "rank": 239
+      "rank": 240
     },
     {
       "student_id": "7126",
@@ -10284,7 +10327,7 @@
         }
       },
       "average": 64.14,
-      "rank": 240
+      "rank": 241
     },
     {
       "student_id": "7392",
@@ -10327,44 +10370,6 @@
         }
       },
       "average": 64.14,
-      "rank": 241
-    },
-    {
-      "student_id": "6961",
-      "student_name": "يوسف شعبان عرجه",
-      "subjects": {
-        "خوارزميات وبنى المعطيات 2": {
-          "practical_mark": 20,
-          "theoretical_mark": 51,
-          "total_mark": 71
-        },
-        "رسوميات حاسوبية ": {
-          "practical_mark": 30,
-          "theoretical_mark": 58,
-          "total_mark": 88
-        },
-        "قواعد المعطيات 1": {
-          "practical_mark": 30,
-          "theoretical_mark": 0,
-          "total_mark": 30
-        },
-        "معالجة الإشارة": {
-          "practical_mark": 28,
-          "theoretical_mark": 57,
-          "total_mark": 85
-        },
-        "نظريّة المخطّطات": {
-          "practical_mark": 28,
-          "theoretical_mark": 60,
-          "total_mark": 88
-        },
-        "نظرية المعلومات": {
-          "practical_mark": 30,
-          "theoretical_mark": 56,
-          "total_mark": 86
-        }
-      },
-      "average": 64.0,
       "rank": 242
     },
     {
@@ -22032,24 +22037,6 @@
       "rank": 545
     },
     {
-      "student_id": "6551",
-      "student_name": "جين عبدو",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 14,
-          "theoretical_mark": 44,
-          "total_mark": 58
-        },
-        "نظريّة المخطّطات": {
-          "practical_mark": 19,
-          "theoretical_mark": 48,
-          "total_mark": 67
-        }
-      },
-      "average": 17.86,
-      "rank": 546
-    },
-    {
       "student_id": "5479",
       "student_name": "محمد اديب شحاده",
       "subjects": {
@@ -22090,7 +22077,7 @@
         }
       },
       "average": 17.71,
-      "rank": 547
+      "rank": 546
     },
     {
       "student_id": "6487",
@@ -22118,7 +22105,7 @@
         }
       },
       "average": 17.43,
-      "rank": 548
+      "rank": 547
     },
     {
       "student_id": "4470",
@@ -22136,7 +22123,7 @@
         }
       },
       "average": 17.43,
-      "rank": 549
+      "rank": 548
     },
     {
       "student_id": "8519",
@@ -22179,7 +22166,7 @@
         }
       },
       "average": 17.29,
-      "rank": 550
+      "rank": 549
     },
     {
       "student_id": "5835",
@@ -22217,7 +22204,7 @@
         }
       },
       "average": 17.14,
-      "rank": 551
+      "rank": 550
     },
     {
       "student_id": "6406",
@@ -22250,7 +22237,7 @@
         }
       },
       "average": 17.14,
-      "rank": 552
+      "rank": 551
     },
     {
       "student_id": "5421",
@@ -22273,7 +22260,7 @@
         }
       },
       "average": 17.0,
-      "rank": 553
+      "rank": 552
     },
     {
       "student_id": "8537",
@@ -22291,7 +22278,7 @@
         }
       },
       "average": 16.86,
-      "rank": 554
+      "rank": 553
     },
     {
       "student_id": "5141",
@@ -22324,7 +22311,7 @@
         }
       },
       "average": 16.71,
-      "rank": 555
+      "rank": 554
     },
     {
       "student_id": "6794",
@@ -22347,7 +22334,7 @@
         }
       },
       "average": 16.14,
-      "rank": 556
+      "rank": 555
     },
     {
       "student_id": "6589",
@@ -22365,7 +22352,7 @@
         }
       },
       "average": 16.0,
-      "rank": 557
+      "rank": 556
     },
     {
       "student_id": "6825",
@@ -22388,7 +22375,7 @@
         }
       },
       "average": 15.86,
-      "rank": 558
+      "rank": 557
     },
     {
       "student_id": "9771",
@@ -22406,7 +22393,7 @@
         }
       },
       "average": 15.86,
-      "rank": 559
+      "rank": 558
     },
     {
       "student_id": "5926",
@@ -22424,7 +22411,7 @@
         }
       },
       "average": 15.86,
-      "rank": 560
+      "rank": 559
     },
     {
       "student_id": "6365",
@@ -22452,7 +22439,7 @@
         }
       },
       "average": 15.71,
-      "rank": 561
+      "rank": 560
     },
     {
       "student_id": "5976",
@@ -22475,7 +22462,7 @@
         }
       },
       "average": 15.71,
-      "rank": 562
+      "rank": 561
     },
     {
       "student_id": "8350",
@@ -22493,7 +22480,7 @@
         }
       },
       "average": 15.43,
-      "rank": 563
+      "rank": 562
     },
     {
       "student_id": "6226",
@@ -22511,7 +22498,7 @@
         }
       },
       "average": 15.29,
-      "rank": 564
+      "rank": 563
     },
     {
       "student_id": "6582",
@@ -22529,7 +22516,7 @@
         }
       },
       "average": 15.0,
-      "rank": 565
+      "rank": 564
     },
     {
       "student_id": "7462",
@@ -22572,7 +22559,7 @@
         }
       },
       "average": 14.71,
-      "rank": 566
+      "rank": 565
     },
     {
       "student_id": "5996",
@@ -22615,7 +22602,7 @@
         }
       },
       "average": 14.71,
-      "rank": 567
+      "rank": 566
     },
     {
       "student_id": "5847",
@@ -22633,7 +22620,7 @@
         }
       },
       "average": 14.71,
-      "rank": 568
+      "rank": 567
     },
     {
       "student_id": "5836",
@@ -22651,7 +22638,7 @@
         }
       },
       "average": 14.71,
-      "rank": 569
+      "rank": 568
     },
     {
       "student_id": "5519",
@@ -22669,7 +22656,7 @@
         }
       },
       "average": 14.71,
-      "rank": 570
+      "rank": 569
     },
     {
       "student_id": "5958",
@@ -22687,7 +22674,7 @@
         }
       },
       "average": 14.57,
-      "rank": 571
+      "rank": 570
     },
     {
       "student_id": "6485",
@@ -22725,7 +22712,7 @@
         }
       },
       "average": 14.43,
-      "rank": 572
+      "rank": 571
     },
     {
       "student_id": "2158",
@@ -22768,7 +22755,7 @@
         }
       },
       "average": 14.29,
-      "rank": 573
+      "rank": 572
     },
     {
       "student_id": "5311",
@@ -22786,7 +22773,7 @@
         }
       },
       "average": 14.29,
-      "rank": 574
+      "rank": 573
     },
     {
       "student_id": "6891",
@@ -22814,7 +22801,7 @@
         }
       },
       "average": 13.71,
-      "rank": 575
+      "rank": 574
     },
     {
       "student_id": "5520",
@@ -22837,7 +22824,7 @@
         }
       },
       "average": 13.57,
-      "rank": 576
+      "rank": 575
     },
     {
       "student_id": "8236",
@@ -22860,7 +22847,7 @@
         }
       },
       "average": 13.43,
-      "rank": 577
+      "rank": 576
     },
     {
       "student_id": "7443",
@@ -22903,30 +22890,7 @@
         }
       },
       "average": 13.29,
-      "rank": 578
-    },
-    {
-      "student_id": "6461",
-      "student_name": "محمد أغه القلعة",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 11,
-          "theoretical_mark": 10,
-          "total_mark": 21
-        },
-        "معالجة الإشارة": {
-          "practical_mark": 10,
-          "theoretical_mark": 0,
-          "total_mark": 10
-        },
-        "نظريّة المخطّطات": {
-          "practical_mark": 17,
-          "theoretical_mark": 44,
-          "total_mark": 61
-        }
-      },
-      "average": 13.14,
-      "rank": 579
+      "rank": 577
     },
     {
       "student_id": "6894",
@@ -22944,7 +22908,7 @@
         }
       },
       "average": 13.14,
-      "rank": 580
+      "rank": 578
     },
     {
       "student_id": "6432",
@@ -22962,7 +22926,7 @@
         }
       },
       "average": 13.0,
-      "rank": 581
+      "rank": 579
     },
     {
       "student_id": "6459",
@@ -22980,20 +22944,7 @@
         }
       },
       "average": 12.57,
-      "rank": 582
-    },
-    {
-      "student_id": "6911",
-      "student_name": "يوسف شعبان عرجه",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 23,
-          "theoretical_mark": 64,
-          "total_mark": 87
-        }
-      },
-      "average": 12.43,
-      "rank": 583
+      "rank": 580
     },
     {
       "student_id": "8161",
@@ -23031,33 +22982,7 @@
         }
       },
       "average": 12.14,
-      "rank": 584
-    },
-    {
-      "student_id": "5949",
-      "student_name": "ايه هنيدي",
-      "subjects": {
-        "نظريّة المخطّطات": {
-          "practical_mark": 23,
-          "theoretical_mark": 62,
-          "total_mark": 85
-        }
-      },
-      "average": 12.14,
-      "rank": 585
-    },
-    {
-      "student_id": "6457",
-      "student_name": "محمد ناصر",
-      "subjects": {
-        "خوارزميات وبنى المعطيات 2": {
-          "practical_mark": 30,
-          "theoretical_mark": 54,
-          "total_mark": 84
-        }
-      },
-      "average": 12.0,
-      "rank": 586
+      "rank": 581
     },
     {
       "student_id": "6359",
@@ -23075,38 +23000,7 @@
         }
       },
       "average": 12.0,
-      "rank": 587
-    },
-    {
-      "student_id": "6027",
-      "student_name": "محمد نور النبهان",
-      "subjects": {
-        "نظرية المعلومات": {
-          "practical_mark": 30,
-          "theoretical_mark": 54,
-          "total_mark": 84
-        }
-      },
-      "average": 12.0,
-      "rank": 588
-    },
-    {
-      "student_id": "8509",
-      "student_name": "سمير الشيخ",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 25,
-          "theoretical_mark": 0,
-          "total_mark": 25
-        },
-        "نظريّة المخطّطات": {
-          "practical_mark": 24,
-          "theoretical_mark": 34,
-          "total_mark": 58
-        }
-      },
-      "average": 11.86,
-      "rank": 589
+      "rank": 582
     },
     {
       "student_id": "6795",
@@ -23124,82 +23018,7 @@
         }
       },
       "average": 11.71,
-      "rank": 590
-    },
-    {
-      "student_id": "7331",
-      "student_name": "سدره الداغر",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 19,
-          "theoretical_mark": 63,
-          "total_mark": 82
-        }
-      },
-      "average": 11.71,
-      "rank": 591
-    },
-    {
-      "student_id": "8256",
-      "student_name": "أسد الدين فارس",
-      "subjects": {
-        "خوارزميات وبنى المعطيات 2": {
-          "practical_mark": 8,
-          "theoretical_mark": 18,
-          "total_mark": 26
-        },
-        "نظرية المعلومات": {
-          "practical_mark": 18,
-          "theoretical_mark": 37,
-          "total_mark": 55
-        }
-      },
-      "average": 11.57,
-      "rank": 592
-    },
-    {
-      "student_id": "8451",
-      "student_name": "عبد الله عكوش",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 21,
-          "theoretical_mark": 60,
-          "total_mark": 81
-        }
-      },
-      "average": 11.57,
-      "rank": 593
-    },
-    {
-      "student_id": "6814",
-      "student_name": "احمد دويك",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 4,
-          "theoretical_mark": 0,
-          "total_mark": 4
-        },
-        "نظرية المعلومات": {
-          "practical_mark": 23,
-          "theoretical_mark": 54,
-          "total_mark": 77
-        }
-      },
-      "average": 11.57,
-      "rank": 594
-    },
-    {
-      "student_id": "4940",
-      "student_name": "جيما العيد",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 28,
-          "theoretical_mark": 53,
-          "total_mark": 81
-        }
-      },
-      "average": 11.57,
-      "rank": 595
+      "rank": 583
     },
     {
       "student_id": "8283",
@@ -23242,7 +23061,7 @@
         }
       },
       "average": 11.57,
-      "rank": 596
+      "rank": 584
     },
     {
       "student_id": "8280",
@@ -23280,64 +23099,7 @@
         }
       },
       "average": 11.43,
-      "rank": 597
-    },
-    {
-      "student_id": "6231",
-      "student_name": "محمد سيلم",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 11,
-          "theoretical_mark": 0,
-          "total_mark": 11
-        },
-        "نظرية المعلومات": {
-          "practical_mark": 13,
-          "theoretical_mark": 56,
-          "total_mark": 69
-        }
-      },
-      "average": 11.43,
-      "rank": 598
-    },
-    {
-      "student_id": "6347",
-      "student_name": "حمود الحمود",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 29,
-          "theoretical_mark": 51,
-          "total_mark": 80
-        }
-      },
-      "average": 11.43,
-      "rank": 599
-    },
-    {
-      "student_id": "4867",
-      "student_name": "محمد طراب",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 27,
-          "theoretical_mark": 53,
-          "total_mark": 80
-        }
-      },
-      "average": 11.43,
-      "rank": 600
-    },
-    {
-      "student_id": "6456",
-      "student_name": "وائل الحاج محيميد اللواش",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 23,
-          "theoretical_mark": 57,
-          "total_mark": 80
-        }
-      },
-      "average": 11.43,
-      "rank": 601
+      "rank": 585
     },
     {
       "student_id": "5645",
@@ -23380,7 +23142,7 @@
         }
       },
       "average": 11.29,
-      "rank": 602
+      "rank": 586
     },
     {
       "student_id": "7487",
@@ -23423,328 +23185,7 @@
         }
       },
       "average": 11.29,
-      "rank": 603
-    },
-    {
-      "student_id": "8217",
-      "student_name": "محمد خطيب",
-      "subjects": {
-        "قواعد المعطيات 1": {
-          "practical_mark": 15,
-          "theoretical_mark": 64,
-          "total_mark": 79
-        }
-      },
-      "average": 11.29,
-      "rank": 604
-    },
-    {
-      "student_id": "6887",
-      "student_name": "رغد حنوش",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 14,
-          "theoretical_mark": 0,
-          "total_mark": 14
-        },
-        "معالجة الإشارة": {
-          "practical_mark": 10,
-          "theoretical_mark": 55,
-          "total_mark": 65
-        }
-      },
-      "average": 11.29,
-      "rank": 605
-    },
-    {
-      "student_id": "6640",
-      "student_name": "طلال بابا",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 23,
-          "theoretical_mark": 56,
-          "total_mark": 79
-        }
-      },
-      "average": 11.29,
-      "rank": 606
-    },
-    {
-      "student_id": "6710",
-      "student_name": "غيث ملا عثمان",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 10,
-          "theoretical_mark": 30,
-          "total_mark": 40
-        },
-        "نظريّة المخطّطات": {
-          "practical_mark": 17,
-          "theoretical_mark": 22,
-          "total_mark": 39
-        }
-      },
-      "average": 11.29,
-      "rank": 607
-    },
-    {
-      "student_id": "6645",
-      "student_name": "محمد نور عدل",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 23,
-          "theoretical_mark": 56,
-          "total_mark": 79
-        }
-      },
-      "average": 11.29,
-      "rank": 608
-    },
-    {
-      "student_id": "6903",
-      "student_name": "احمد الخليل",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 24,
-          "theoretical_mark": 54,
-          "total_mark": 78
-        }
-      },
-      "average": 11.14,
-      "rank": 609
-    },
-    {
-      "student_id": "6492",
-      "student_name": "ساره زيدو",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 23,
-          "theoretical_mark": 55,
-          "total_mark": 78
-        }
-      },
-      "average": 11.14,
-      "rank": 610
-    },
-    {
-      "student_id": "5295",
-      "student_name": "راما الباشا",
-      "subjects": {
-        "نظرية المعلومات": {
-          "practical_mark": 30,
-          "theoretical_mark": 48,
-          "total_mark": 78
-        }
-      },
-      "average": 11.14,
-      "rank": 611
-    },
-    {
-      "student_id": "4578",
-      "student_name": "عبد الرحمن عبطيني",
-      "subjects": {
-        "قواعد المعطيات 1": {
-          "practical_mark": 17,
-          "theoretical_mark": 60,
-          "total_mark": 77
-        }
-      },
-      "average": 11.0,
-      "rank": 612
-    },
-    {
-      "student_id": "8392",
-      "student_name": "ماهر خضر",
-      "subjects": {
-        "قواعد المعطيات 1": {
-          "practical_mark": 15,
-          "theoretical_mark": 62,
-          "total_mark": 77
-        }
-      },
-      "average": 11.0,
-      "rank": 613
-    },
-    {
-      "student_id": "6311",
-      "student_name": "علي الحجي",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 5,
-          "theoretical_mark": 0,
-          "total_mark": 5
-        },
-        "معالجة الإشارة": {
-          "practical_mark": 22,
-          "theoretical_mark": 50,
-          "total_mark": 72
-        }
-      },
-      "average": 11.0,
-      "rank": 614
-    },
-    {
-      "student_id": "6352",
-      "student_name": "فراس العيسى",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 19,
-          "theoretical_mark": 0,
-          "total_mark": 19
-        },
-        "معالجة الإشارة": {
-          "practical_mark": 28,
-          "theoretical_mark": 10,
-          "total_mark": 38
-        },
-        "نظرية المعلومات": {
-          "practical_mark": 20,
-          "theoretical_mark": 0,
-          "total_mark": 20
-        }
-      },
-      "average": 11.0,
-      "rank": 615
-    },
-    {
-      "student_id": "6039",
-      "student_name": "علي ياغي",
-      "subjects": {
-        "نظرية المعلومات": {
-          "practical_mark": 30,
-          "theoretical_mark": 47,
-          "total_mark": 77
-        }
-      },
-      "average": 11.0,
-      "rank": 616
-    },
-    {
-      "student_id": "6725",
-      "student_name": "انس العيسى",
-      "subjects": {
-        "خوارزميات وبنى المعطيات 2": {
-          "practical_mark": 0,
-          "theoretical_mark": 0,
-          "total_mark": 0
-        },
-        "معالجة الإشارة": {
-          "practical_mark": 21,
-          "theoretical_mark": 0,
-          "total_mark": 21
-        },
-        "نظريّة المخطّطات": {
-          "practical_mark": 17,
-          "theoretical_mark": 38,
-          "total_mark": 55
-        }
-      },
-      "average": 10.86,
-      "rank": 617
-    },
-    {
-      "student_id": "6776",
-      "student_name": "عبد الله عقاد",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 26,
-          "theoretical_mark": 50,
-          "total_mark": 76
-        }
-      },
-      "average": 10.86,
-      "rank": 618
-    },
-    {
-      "student_id": "8253",
-      "student_name": "محمد مرعي",
-      "subjects": {
-        "نظرية المعلومات": {
-          "practical_mark": 17,
-          "theoretical_mark": 59,
-          "total_mark": 76
-        }
-      },
-      "average": 10.86,
-      "rank": 619
-    },
-    {
-      "student_id": "6872",
-      "student_name": "عمرو هنانو",
-      "subjects": {
-        "نظرية المعلومات": {
-          "practical_mark": 26,
-          "theoretical_mark": 50,
-          "total_mark": 76
-        }
-      },
-      "average": 10.86,
-      "rank": 620
-    },
-    {
-      "student_id": "6016",
-      "student_name": "علي العيسى",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 30,
-          "theoretical_mark": 45,
-          "total_mark": 75
-        }
-      },
-      "average": 10.71,
-      "rank": 621
-    },
-    {
-      "student_id": "6504",
-      "student_name": "غازي كيروان",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 25,
-          "theoretical_mark": 50,
-          "total_mark": 75
-        }
-      },
-      "average": 10.71,
-      "rank": 622
-    },
-    {
-      "student_id": "8211",
-      "student_name": "خالد الحاجي",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 18,
-          "theoretical_mark": 56,
-          "total_mark": 74
-        }
-      },
-      "average": 10.57,
-      "rank": 623
-    },
-    {
-      "student_id": "6512",
-      "student_name": "محمد جاويش",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 17,
-          "theoretical_mark": 57,
-          "total_mark": 74
-        }
-      },
-      "average": 10.57,
-      "rank": 624
-    },
-    {
-      "student_id": "6676",
-      "student_name": "نور الهدى نور الدين",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 21,
-          "theoretical_mark": 53,
-          "total_mark": 74
-        }
-      },
-      "average": 10.57,
-      "rank": 625
+      "rank": 587
     },
     {
       "student_id": "8398",
@@ -23787,7 +23228,7 @@
         }
       },
       "average": 10.57,
-      "rank": 626
+      "rank": 588
     },
     {
       "student_id": "8363",
@@ -23830,214 +23271,7 @@
         }
       },
       "average": 10.43,
-      "rank": 627
-    },
-    {
-      "student_id": "6356",
-      "student_name": "يوسف نصار",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 0,
-          "theoretical_mark": 0,
-          "total_mark": 0
-        },
-        "معالجة الإشارة": {
-          "practical_mark": 15,
-          "theoretical_mark": 2,
-          "total_mark": 17
-        },
-        "نظرية المعلومات": {
-          "practical_mark": 14,
-          "theoretical_mark": 42,
-          "total_mark": 56
-        }
-      },
-      "average": 10.43,
-      "rank": 628
-    },
-    {
-      "student_id": "6493",
-      "student_name": "بسام سليمان",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 15,
-          "theoretical_mark": 58,
-          "total_mark": 73
-        }
-      },
-      "average": 10.43,
-      "rank": 629
-    },
-    {
-      "student_id": "6689",
-      "student_name": "تميم حاج خليل",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 26,
-          "theoretical_mark": 47,
-          "total_mark": 73
-        }
-      },
-      "average": 10.43,
-      "rank": 630
-    },
-    {
-      "student_id": "6808",
-      "student_name": "ريان علي جاسم",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 19,
-          "theoretical_mark": 54,
-          "total_mark": 73
-        }
-      },
-      "average": 10.43,
-      "rank": 631
-    },
-    {
-      "student_id": "6481",
-      "student_name": "عبد الخالق جحجاح",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 27,
-          "theoretical_mark": 46,
-          "total_mark": 73
-        }
-      },
-      "average": 10.43,
-      "rank": 632
-    },
-    {
-      "student_id": "8332",
-      "student_name": "سمية الحجي",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 20,
-          "theoretical_mark": 52,
-          "total_mark": 72
-        }
-      },
-      "average": 10.29,
-      "rank": 633
-    },
-    {
-      "student_id": "8234",
-      "student_name": "محمد الأحمد",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 20,
-          "theoretical_mark": 52,
-          "total_mark": 72
-        }
-      },
-      "average": 10.29,
-      "rank": 634
-    },
-    {
-      "student_id": "5858",
-      "student_name": "محمد ظافر المحلول",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 20,
-          "theoretical_mark": 52,
-          "total_mark": 72
-        }
-      },
-      "average": 10.29,
-      "rank": 635
-    },
-    {
-      "student_id": "6574",
-      "student_name": "محمد يمان الشيخ",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 20,
-          "theoretical_mark": 30,
-          "total_mark": 50
-        },
-        "نظرية المعلومات": {
-          "practical_mark": 22,
-          "theoretical_mark": 0,
-          "total_mark": 22
-        }
-      },
-      "average": 10.29,
-      "rank": 636
-    },
-    {
-      "student_id": "6136",
-      "student_name": "أحمد عارف وهيبه",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 15,
-          "theoretical_mark": 46,
-          "total_mark": 61
-        },
-        "معالجة الإشارة": {
-          "practical_mark": 10,
-          "theoretical_mark": 0,
-          "total_mark": 10
-        }
-      },
-      "average": 10.14,
-      "rank": 637
-    },
-    {
-      "student_id": "1399",
-      "student_name": "محمد قصي المحمد",
-      "subjects": {
-        "معالج مصغّر": {
-          "practical_mark": 17,
-          "theoretical_mark": 54,
-          "total_mark": 71
-        }
-      },
-      "average": 10.14,
-      "rank": 638
-    },
-    {
-      "student_id": "6608",
-      "student_name": "ايهم اسماعيل",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 13,
-          "theoretical_mark": 0,
-          "total_mark": 13
-        },
-        "نظريّة المخطّطات": {
-          "practical_mark": 24,
-          "theoretical_mark": 34,
-          "total_mark": 58
-        }
-      },
-      "average": 10.14,
-      "rank": 639
-    },
-    {
-      "student_id": "6587",
-      "student_name": "احمد نطاع",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 24,
-          "theoretical_mark": 47,
-          "total_mark": 71
-        }
-      },
-      "average": 10.14,
-      "rank": 640
-    },
-    {
-      "student_id": "6840",
-      "student_name": "خلود الحماده",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 28,
-          "theoretical_mark": 43,
-          "total_mark": 71
-        }
-      },
-      "average": 10.14,
-      "rank": 641
+      "rank": 589
     }
   ]
 }

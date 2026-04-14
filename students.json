@@ -1,5 +1,5 @@
 {
-  "total_students": 875,
+  "total_students": 874,
   "students": [
     {
       "student_id": "7110",
@@ -1206,6 +1206,49 @@
       "rank": 28
     },
     {
+      "student_id": "7232",
+      "student_name": "ولاده المجيد",
+      "subjects": {
+        "خوارزميات وبنى المعطيات 2": {
+          "practical_mark": 25,
+          "theoretical_mark": 43,
+          "total_mark": 68
+        },
+        "رسوميات حاسوبية ": {
+          "practical_mark": 30,
+          "theoretical_mark": 54,
+          "total_mark": 84
+        },
+        "قواعد المعطيات 1": {
+          "practical_mark": 30,
+          "theoretical_mark": 68,
+          "total_mark": 98
+        },
+        "معالج مصغّر": {
+          "practical_mark": 24,
+          "theoretical_mark": 70,
+          "total_mark": 94
+        },
+        "نظريّة المخطّطات": {
+          "practical_mark": 23,
+          "theoretical_mark": 50,
+          "total_mark": 73
+        },
+        "نظرية المعلومات": {
+          "practical_mark": 30,
+          "theoretical_mark": 52,
+          "total_mark": 82
+        },
+        "معالجة الإشارة": {
+          "practical_mark": 29,
+          "theoretical_mark": 57,
+          "total_mark": 86
+        }
+      },
+      "average": 83.57,
+      "rank": 29
+    },
+    {
       "student_id": "7327",
       "student_name": "دانيه بيره جكلي",
       "subjects": {
@@ -1246,7 +1289,7 @@
         }
       },
       "average": 83.43,
-      "rank": 29
+      "rank": 30
     },
     {
       "student_id": "7155",
@@ -1289,7 +1332,7 @@
         }
       },
       "average": 83.43,
-      "rank": 30
+      "rank": 31
     },
     {
       "student_id": "6964",
@@ -1332,7 +1375,7 @@
         }
       },
       "average": 83.14,
-      "rank": 31
+      "rank": 32
     },
     {
       "student_id": "7189",
@@ -1375,7 +1418,7 @@
         }
       },
       "average": 83.14,
-      "rank": 32
+      "rank": 33
     },
     {
       "student_id": "7503",
@@ -1418,7 +1461,7 @@
         }
       },
       "average": 83.0,
-      "rank": 33
+      "rank": 34
     },
     {
       "student_id": "7074",
@@ -1461,7 +1504,7 @@
         }
       },
       "average": 82.57,
-      "rank": 34
+      "rank": 35
     },
     {
       "student_id": "7290",
@@ -1504,7 +1547,7 @@
         }
       },
       "average": 82.43,
-      "rank": 35
+      "rank": 36
     },
     {
       "student_id": "7225",
@@ -1547,7 +1590,7 @@
         }
       },
       "average": 82.29,
-      "rank": 36
+      "rank": 37
     },
     {
       "student_id": "9581",
@@ -1590,7 +1633,7 @@
         }
       },
       "average": 82.29,
-      "rank": 37
+      "rank": 38
     },
     {
       "student_id": "6781",
@@ -1633,7 +1676,7 @@
         }
       },
       "average": 82.14,
-      "rank": 38
+      "rank": 39
     },
     {
       "student_id": "7315",
@@ -1676,7 +1719,7 @@
         }
       },
       "average": 82.0,
-      "rank": 39
+      "rank": 40
     },
     {
       "student_id": "6480",
@@ -1719,7 +1762,7 @@
         }
       },
       "average": 81.86,
-      "rank": 40
+      "rank": 41
     },
     {
       "student_id": "7165",
@@ -1762,7 +1805,7 @@
         }
       },
       "average": 81.86,
-      "rank": 41
+      "rank": 42
     },
     {
       "student_id": "7356",
@@ -1805,7 +1848,7 @@
         }
       },
       "average": 81.71,
-      "rank": 42
+      "rank": 43
     },
     {
       "student_id": "7237",
@@ -1848,7 +1891,7 @@
         }
       },
       "average": 81.71,
-      "rank": 43
+      "rank": 44
     },
     {
       "student_id": "7358",
@@ -1891,7 +1934,7 @@
         }
       },
       "average": 81.57,
-      "rank": 44
+      "rank": 45
     },
     {
       "student_id": "6939",
@@ -1934,7 +1977,7 @@
         }
       },
       "average": 81.57,
-      "rank": 45
+      "rank": 46
     },
     {
       "student_id": "7414",
@@ -1977,7 +2020,7 @@
         }
       },
       "average": 81.43,
-      "rank": 46
+      "rank": 47
     },
     {
       "student_id": "7142",
@@ -2020,7 +2063,7 @@
         }
       },
       "average": 81.43,
-      "rank": 47
+      "rank": 48
     },
     {
       "student_id": "7406",
@@ -2063,7 +2106,7 @@
         }
       },
       "average": 81.29,
-      "rank": 48
+      "rank": 49
     },
     {
       "student_id": "6992",
@@ -2106,7 +2149,7 @@
         }
       },
       "average": 81.29,
-      "rank": 49
+      "rank": 50
     },
     {
       "student_id": "7420",
@@ -2149,7 +2192,7 @@
         }
       },
       "average": 81.14,
-      "rank": 50
+      "rank": 51
     },
     {
       "student_id": "7217",
@@ -2192,7 +2235,7 @@
         }
       },
       "average": 81.0,
-      "rank": 51
+      "rank": 52
     },
     {
       "student_id": "7209",
@@ -2235,7 +2278,7 @@
         }
       },
       "average": 81.0,
-      "rank": 52
+      "rank": 53
     },
     {
       "student_id": "7416",
@@ -2278,7 +2321,7 @@
         }
       },
       "average": 80.86,
-      "rank": 53
+      "rank": 54
     },
     {
       "student_id": "7495",
@@ -2321,7 +2364,7 @@
         }
       },
       "average": 80.86,
-      "rank": 54
+      "rank": 55
     },
     {
       "student_id": "7040",
@@ -2364,7 +2407,7 @@
         }
       },
       "average": 80.71,
-      "rank": 55
+      "rank": 56
     },
     {
       "student_id": "7493",
@@ -2407,7 +2450,7 @@
         }
       },
       "average": 80.57,
-      "rank": 56
+      "rank": 57
     },
     {
       "student_id": "7160",
@@ -2450,7 +2493,7 @@
         }
       },
       "average": 80.57,
-      "rank": 57
+      "rank": 58
     },
     {
       "student_id": "7159",
@@ -2493,7 +2536,7 @@
         }
       },
       "average": 80.43,
-      "rank": 58
+      "rank": 59
     },
     {
       "student_id": "7275",
@@ -2536,7 +2579,7 @@
         }
       },
       "average": 80.43,
-      "rank": 59
+      "rank": 60
     },
     {
       "student_id": "7401",
@@ -2579,7 +2622,7 @@
         }
       },
       "average": 80.29,
-      "rank": 60
+      "rank": 61
     },
     {
       "student_id": "7411",
@@ -2622,7 +2665,7 @@
         }
       },
       "average": 80.29,
-      "rank": 61
+      "rank": 62
     },
     {
       "student_id": "6995",
@@ -2665,7 +2708,7 @@
         }
       },
       "average": 80.14,
-      "rank": 62
+      "rank": 63
     },
     {
       "student_id": "7478",
@@ -2708,7 +2751,7 @@
         }
       },
       "average": 80.14,
-      "rank": 63
+      "rank": 64
     },
     {
       "student_id": "7476",
@@ -2751,7 +2794,7 @@
         }
       },
       "average": 79.86,
-      "rank": 64
+      "rank": 65
     },
     {
       "student_id": "6960",
@@ -2794,7 +2837,7 @@
         }
       },
       "average": 79.71,
-      "rank": 65
+      "rank": 66
     },
     {
       "student_id": "7244",
@@ -2837,7 +2880,7 @@
         }
       },
       "average": 79.43,
-      "rank": 66
+      "rank": 67
     },
     {
       "student_id": "7344",
@@ -2880,7 +2923,7 @@
         }
       },
       "average": 79.14,
-      "rank": 67
+      "rank": 68
     },
     {
       "student_id": "7223",
@@ -2923,7 +2966,7 @@
         }
       },
       "average": 78.86,
-      "rank": 68
+      "rank": 69
     },
     {
       "student_id": "7105",
@@ -2966,7 +3009,7 @@
         }
       },
       "average": 78.86,
-      "rank": 69
+      "rank": 70
     },
     {
       "student_id": "7206",
@@ -3009,7 +3052,7 @@
         }
       },
       "average": 78.57,
-      "rank": 70
+      "rank": 71
     },
     {
       "student_id": "7191",
@@ -3052,7 +3095,7 @@
         }
       },
       "average": 78.57,
-      "rank": 71
+      "rank": 72
     },
     {
       "student_id": "7473",
@@ -3095,7 +3138,7 @@
         }
       },
       "average": 78.43,
-      "rank": 72
+      "rank": 73
     },
     {
       "student_id": "7188",
@@ -3138,7 +3181,7 @@
         }
       },
       "average": 78.0,
-      "rank": 73
+      "rank": 74
     },
     {
       "student_id": "7243",
@@ -3181,7 +3224,7 @@
         }
       },
       "average": 78.0,
-      "rank": 74
+      "rank": 75
     },
     {
       "student_id": "6489",
@@ -3224,7 +3267,7 @@
         }
       },
       "average": 78.0,
-      "rank": 75
+      "rank": 76
     },
     {
       "student_id": "7235",
@@ -3267,16 +3310,16 @@
         }
       },
       "average": 77.86,
-      "rank": 76
+      "rank": 77
     },
     {
       "student_id": "6984",
       "student_name": "محمد بيطار معتوق",
       "subjects": {
         "خوارزميات وبنى المعطيات 2": {
-          "practical_mark": 30,
-          "theoretical_mark": 55,
-          "total_mark": 85
+          "practical_mark": "30",
+          "theoretical_mark": "55",
+          "total_mark": 85.0
         },
         "رسوميات حاسوبية ": {
           "practical_mark": 22,
@@ -3310,7 +3353,7 @@
         }
       },
       "average": 77.86,
-      "rank": 77
+      "rank": 78
     },
     {
       "student_id": "7043",
@@ -3353,7 +3396,7 @@
         }
       },
       "average": 77.71,
-      "rank": 78
+      "rank": 79
     },
     {
       "student_id": "7018",
@@ -3396,7 +3439,7 @@
         }
       },
       "average": 77.71,
-      "rank": 79
+      "rank": 80
     },
     {
       "student_id": "7230",
@@ -3439,7 +3482,7 @@
         }
       },
       "average": 77.71,
-      "rank": 80
+      "rank": 81
     },
     {
       "student_id": "7005",
@@ -3482,7 +3525,7 @@
         }
       },
       "average": 77.57,
-      "rank": 81
+      "rank": 82
     },
     {
       "student_id": "7378",
@@ -3525,7 +3568,7 @@
         }
       },
       "average": 77.43,
-      "rank": 82
+      "rank": 83
     },
     {
       "student_id": "6953",
@@ -3568,7 +3611,7 @@
         }
       },
       "average": 77.29,
-      "rank": 83
+      "rank": 84
     },
     {
       "student_id": "7190",
@@ -3611,7 +3654,7 @@
         }
       },
       "average": 77.29,
-      "rank": 84
+      "rank": 85
     },
     {
       "student_id": "7139",
@@ -3654,7 +3697,7 @@
         }
       },
       "average": 77.29,
-      "rank": 85
+      "rank": 86
     },
     {
       "student_id": "7029",
@@ -3697,7 +3740,7 @@
         }
       },
       "average": 77.0,
-      "rank": 86
+      "rank": 87
     },
     {
       "student_id": "6974",
@@ -3740,7 +3783,7 @@
         }
       },
       "average": 76.71,
-      "rank": 87
+      "rank": 88
     },
     {
       "student_id": "7197",
@@ -3783,7 +3826,7 @@
         }
       },
       "average": 76.71,
-      "rank": 88
+      "rank": 89
     },
     {
       "student_id": "6970",
@@ -3826,7 +3869,7 @@
         }
       },
       "average": 76.57,
-      "rank": 89
+      "rank": 90
     },
     {
       "student_id": "7183",
@@ -3869,7 +3912,7 @@
         }
       },
       "average": 76.43,
-      "rank": 90
+      "rank": 91
     },
     {
       "student_id": "7373",
@@ -3912,7 +3955,7 @@
         }
       },
       "average": 76.29,
-      "rank": 91
+      "rank": 92
     },
     {
       "student_id": "7239",
@@ -3955,7 +3998,7 @@
         }
       },
       "average": 76.14,
-      "rank": 92
+      "rank": 93
     },
     {
       "student_id": "9698",
@@ -3998,7 +4041,7 @@
         }
       },
       "average": 76.14,
-      "rank": 93
+      "rank": 94
     },
     {
       "student_id": "7394",
@@ -4041,7 +4084,7 @@
         }
       },
       "average": 76.0,
-      "rank": 94
+      "rank": 95
     },
     {
       "student_id": "7336",
@@ -4084,7 +4127,7 @@
         }
       },
       "average": 76.0,
-      "rank": 95
+      "rank": 96
     },
     {
       "student_id": "7028",
@@ -4127,7 +4170,7 @@
         }
       },
       "average": 75.86,
-      "rank": 96
+      "rank": 97
     },
     {
       "student_id": "7294",
@@ -4170,7 +4213,7 @@
         }
       },
       "average": 75.71,
-      "rank": 97
+      "rank": 98
     },
     {
       "student_id": "6982",
@@ -4213,7 +4256,7 @@
         }
       },
       "average": 75.71,
-      "rank": 98
+      "rank": 99
     },
     {
       "student_id": "7418",
@@ -4256,7 +4299,7 @@
         }
       },
       "average": 75.71,
-      "rank": 99
+      "rank": 100
     },
     {
       "student_id": "7338",
@@ -4299,7 +4342,7 @@
         }
       },
       "average": 75.57,
-      "rank": 100
+      "rank": 101
     },
     {
       "student_id": "7137",
@@ -4342,7 +4385,7 @@
         }
       },
       "average": 75.29,
-      "rank": 101
+      "rank": 102
     },
     {
       "student_id": "7335",
@@ -4385,7 +4428,7 @@
         }
       },
       "average": 75.14,
-      "rank": 102
+      "rank": 103
     },
     {
       "student_id": "7491",
@@ -4428,7 +4471,7 @@
         }
       },
       "average": 75.14,
-      "rank": 103
+      "rank": 104
     },
     {
       "student_id": "6981",
@@ -4471,7 +4514,7 @@
         }
       },
       "average": 75.14,
-      "rank": 104
+      "rank": 105
     },
     {
       "student_id": "7170",
@@ -4514,7 +4557,7 @@
         }
       },
       "average": 75.0,
-      "rank": 105
+      "rank": 106
     },
     {
       "student_id": "7322",
@@ -4557,7 +4600,7 @@
         }
       },
       "average": 74.86,
-      "rank": 106
+      "rank": 107
     },
     {
       "student_id": "7127",
@@ -4600,7 +4643,7 @@
         }
       },
       "average": 74.86,
-      "rank": 107
+      "rank": 108
     },
     {
       "student_id": "7117",
@@ -4643,7 +4686,7 @@
         }
       },
       "average": 74.86,
-      "rank": 108
+      "rank": 109
     },
     {
       "student_id": "7424",
@@ -4686,7 +4729,7 @@
         }
       },
       "average": 74.71,
-      "rank": 109
+      "rank": 110
     },
     {
       "student_id": "8153",
@@ -4724,7 +4767,7 @@
         }
       },
       "average": 74.71,
-      "rank": 110
+      "rank": 111
     },
     {
       "student_id": "6934",
@@ -4767,7 +4810,7 @@
         }
       },
       "average": 74.71,
-      "rank": 111
+      "rank": 112
     },
     {
       "student_id": "7384",
@@ -4805,7 +4848,7 @@
         }
       },
       "average": 74.71,
-      "rank": 112
+      "rank": 113
     },
     {
       "student_id": "7222",
@@ -4848,7 +4891,7 @@
         }
       },
       "average": 74.57,
-      "rank": 113
+      "rank": 114
     },
     {
       "student_id": "7303",
@@ -4891,7 +4934,7 @@
         }
       },
       "average": 74.43,
-      "rank": 114
+      "rank": 115
     },
     {
       "student_id": "8157",
@@ -4929,7 +4972,7 @@
         }
       },
       "average": 74.29,
-      "rank": 115
+      "rank": 116
     },
     {
       "student_id": "7215",
@@ -4972,7 +5015,7 @@
         }
       },
       "average": 74.29,
-      "rank": 116
+      "rank": 117
     },
     {
       "student_id": "7107",
@@ -5015,7 +5058,7 @@
         }
       },
       "average": 74.14,
-      "rank": 117
+      "rank": 118
     },
     {
       "student_id": "7032",
@@ -5058,7 +5101,7 @@
         }
       },
       "average": 74.14,
-      "rank": 118
+      "rank": 119
     },
     {
       "student_id": "7502",
@@ -5101,7 +5144,7 @@
         }
       },
       "average": 74.14,
-      "rank": 119
+      "rank": 120
     },
     {
       "student_id": "7267",
@@ -5144,7 +5187,7 @@
         }
       },
       "average": 73.86,
-      "rank": 120
+      "rank": 121
     },
     {
       "student_id": "5649",
@@ -5187,7 +5230,7 @@
         }
       },
       "average": 73.86,
-      "rank": 121
+      "rank": 122
     },
     {
       "student_id": "5900",
@@ -5230,7 +5273,7 @@
         }
       },
       "average": 73.71,
-      "rank": 122
+      "rank": 123
     },
     {
       "student_id": "7108",
@@ -5273,7 +5316,7 @@
         }
       },
       "average": 73.57,
-      "rank": 123
+      "rank": 124
     },
     {
       "student_id": "8167",
@@ -5311,7 +5354,7 @@
         }
       },
       "average": 73.14,
-      "rank": 124
+      "rank": 125
     },
     {
       "student_id": "7417",
@@ -5354,7 +5397,7 @@
         }
       },
       "average": 73.14,
-      "rank": 125
+      "rank": 126
     },
     {
       "student_id": "7292",
@@ -5397,7 +5440,7 @@
         }
       },
       "average": 73.14,
-      "rank": 126
+      "rank": 127
     },
     {
       "student_id": "7077",
@@ -5440,7 +5483,7 @@
         }
       },
       "average": 73.0,
-      "rank": 127
+      "rank": 128
     },
     {
       "student_id": "7071",
@@ -5483,7 +5526,7 @@
         }
       },
       "average": 72.86,
-      "rank": 128
+      "rank": 129
     },
     {
       "student_id": "7129",
@@ -5526,7 +5569,7 @@
         }
       },
       "average": 72.71,
-      "rank": 129
+      "rank": 130
     },
     {
       "student_id": "7047",
@@ -5569,7 +5612,7 @@
         }
       },
       "average": 72.57,
-      "rank": 130
+      "rank": 131
     },
     {
       "student_id": "7046",
@@ -5612,7 +5655,7 @@
         }
       },
       "average": 72.57,
-      "rank": 131
+      "rank": 132
     },
     {
       "student_id": "7208",
@@ -5655,7 +5698,7 @@
         }
       },
       "average": 72.57,
-      "rank": 132
+      "rank": 133
     },
     {
       "student_id": "7413",
@@ -5693,7 +5736,7 @@
         }
       },
       "average": 72.43,
-      "rank": 133
+      "rank": 134
     },
     {
       "student_id": "6975",
@@ -5736,7 +5779,7 @@
         }
       },
       "average": 72.43,
-      "rank": 134
+      "rank": 135
     },
     {
       "student_id": "7337",
@@ -5779,7 +5822,7 @@
         }
       },
       "average": 72.43,
-      "rank": 135
+      "rank": 136
     },
     {
       "student_id": "6956",
@@ -5822,7 +5865,7 @@
         }
       },
       "average": 72.43,
-      "rank": 136
+      "rank": 137
     },
     {
       "student_id": "7375",
@@ -5865,7 +5908,7 @@
         }
       },
       "average": 72.29,
-      "rank": 137
+      "rank": 138
     },
     {
       "student_id": "8168",
@@ -5903,7 +5946,7 @@
         }
       },
       "average": 72.29,
-      "rank": 138
+      "rank": 139
     },
     {
       "student_id": "7251",
@@ -5946,7 +5989,7 @@
         }
       },
       "average": 72.14,
-      "rank": 139
+      "rank": 140
     },
     {
       "student_id": "7069",
@@ -5989,7 +6032,7 @@
         }
       },
       "average": 72.14,
-      "rank": 140
+      "rank": 141
     },
     {
       "student_id": "7017",
@@ -6032,7 +6075,7 @@
         }
       },
       "average": 72.0,
-      "rank": 141
+      "rank": 142
     },
     {
       "student_id": "7016",
@@ -6075,7 +6118,7 @@
         }
       },
       "average": 71.71,
-      "rank": 142
+      "rank": 143
     },
     {
       "student_id": "7310",
@@ -6118,7 +6161,7 @@
         }
       },
       "average": 71.71,
-      "rank": 143
+      "rank": 144
     },
     {
       "student_id": "7415",
@@ -6161,7 +6204,7 @@
         }
       },
       "average": 71.71,
-      "rank": 144
+      "rank": 145
     },
     {
       "student_id": "6686",
@@ -6204,7 +6247,7 @@
         }
       },
       "average": 71.57,
-      "rank": 145
+      "rank": 146
     },
     {
       "student_id": "7100",
@@ -6247,7 +6290,7 @@
         }
       },
       "average": 71.43,
-      "rank": 146
+      "rank": 147
     },
     {
       "student_id": "7034",
@@ -6290,7 +6333,7 @@
         }
       },
       "average": 71.43,
-      "rank": 147
+      "rank": 148
     },
     {
       "student_id": "6491",
@@ -6333,7 +6376,7 @@
         }
       },
       "average": 71.43,
-      "rank": 148
+      "rank": 149
     },
     {
       "student_id": "7500",
@@ -6373,44 +6416,6 @@
           "practical_mark": 27,
           "theoretical_mark": 53,
           "total_mark": 80
-        }
-      },
-      "average": 71.29,
-      "rank": 149
-    },
-    {
-      "student_id": "7232",
-      "student_name": "ولاده المجيد",
-      "subjects": {
-        "خوارزميات وبنى المعطيات 2": {
-          "practical_mark": 25,
-          "theoretical_mark": 43,
-          "total_mark": 68
-        },
-        "رسوميات حاسوبية ": {
-          "practical_mark": 30,
-          "theoretical_mark": 54,
-          "total_mark": 84
-        },
-        "قواعد المعطيات 1": {
-          "practical_mark": 30,
-          "theoretical_mark": 68,
-          "total_mark": 98
-        },
-        "معالج مصغّر": {
-          "practical_mark": 24,
-          "theoretical_mark": 70,
-          "total_mark": 94
-        },
-        "نظريّة المخطّطات": {
-          "practical_mark": 23,
-          "theoretical_mark": 50,
-          "total_mark": 73
-        },
-        "نظرية المعلومات": {
-          "practical_mark": 30,
-          "theoretical_mark": 52,
-          "total_mark": 82
         }
       },
       "average": 71.29,
@@ -10438,7 +10443,7 @@
     },
     {
       "student_id": "8395",
-      "student_name": "محمد عينو",
+      "student_name": "محمد عيدو",
       "subjects": {
         "خوارزميات وبنى المعطيات 2": {
           "practical_mark": 17,
@@ -22688,19 +22693,6 @@
       "rank": 582
     },
     {
-      "student_id": "7332",
-      "student_name": "ولاده المجيد",
-      "subjects": {
-        "معالجة الإشارة": {
-          "practical_mark": 29,
-          "theoretical_mark": 57,
-          "total_mark": 86
-        }
-      },
-      "average": 12.29,
-      "rank": 583
-    },
-    {
       "student_id": "8161",
       "student_name": "عمر الجيار",
       "subjects": {
@@ -22736,7 +22728,7 @@
         }
       },
       "average": 12.14,
-      "rank": 584
+      "rank": 583
     },
     {
       "student_id": "5949",
@@ -22749,7 +22741,7 @@
         }
       },
       "average": 12.14,
-      "rank": 585
+      "rank": 584
     },
     {
       "student_id": "6457",
@@ -22762,7 +22754,7 @@
         }
       },
       "average": 12.0,
-      "rank": 586
+      "rank": 585
     },
     {
       "student_id": "6359",
@@ -22780,7 +22772,7 @@
         }
       },
       "average": 12.0,
-      "rank": 587
+      "rank": 586
     },
     {
       "student_id": "6027",
@@ -22793,7 +22785,7 @@
         }
       },
       "average": 12.0,
-      "rank": 588
+      "rank": 587
     },
     {
       "student_id": "8509",
@@ -22811,7 +22803,7 @@
         }
       },
       "average": 11.86,
-      "rank": 589
+      "rank": 588
     },
     {
       "student_id": "6795",
@@ -22829,7 +22821,7 @@
         }
       },
       "average": 11.71,
-      "rank": 590
+      "rank": 589
     },
     {
       "student_id": "7331",
@@ -22842,7 +22834,7 @@
         }
       },
       "average": 11.71,
-      "rank": 591
+      "rank": 590
     },
     {
       "student_id": "8256",
@@ -22860,7 +22852,7 @@
         }
       },
       "average": 11.57,
-      "rank": 592
+      "rank": 591
     },
     {
       "student_id": "8451",
@@ -22873,7 +22865,7 @@
         }
       },
       "average": 11.57,
-      "rank": 593
+      "rank": 592
     },
     {
       "student_id": "6814",
@@ -22891,7 +22883,7 @@
         }
       },
       "average": 11.57,
-      "rank": 594
+      "rank": 593
     },
     {
       "student_id": "4940",
@@ -22904,7 +22896,7 @@
         }
       },
       "average": 11.57,
-      "rank": 595
+      "rank": 594
     },
     {
       "student_id": "8280",
@@ -22942,7 +22934,7 @@
         }
       },
       "average": 11.43,
-      "rank": 596
+      "rank": 595
     },
     {
       "student_id": "6231",
@@ -22960,7 +22952,7 @@
         }
       },
       "average": 11.43,
-      "rank": 597
+      "rank": 596
     },
     {
       "student_id": "6347",
@@ -22973,7 +22965,7 @@
         }
       },
       "average": 11.43,
-      "rank": 598
+      "rank": 597
     },
     {
       "student_id": "4867",
@@ -22986,7 +22978,7 @@
         }
       },
       "average": 11.43,
-      "rank": 599
+      "rank": 598
     },
     {
       "student_id": "6456",
@@ -22999,7 +22991,7 @@
         }
       },
       "average": 11.43,
-      "rank": 600
+      "rank": 599
     },
     {
       "student_id": "5645",
@@ -23042,7 +23034,7 @@
         }
       },
       "average": 11.29,
-      "rank": 601
+      "rank": 600
     },
     {
       "student_id": "7487",
@@ -23085,7 +23077,7 @@
         }
       },
       "average": 11.29,
-      "rank": 602
+      "rank": 601
     },
     {
       "student_id": "8217",
@@ -23098,7 +23090,7 @@
         }
       },
       "average": 11.29,
-      "rank": 603
+      "rank": 602
     },
     {
       "student_id": "6887",
@@ -23116,7 +23108,7 @@
         }
       },
       "average": 11.29,
-      "rank": 604
+      "rank": 603
     },
     {
       "student_id": "6640",
@@ -23129,7 +23121,7 @@
         }
       },
       "average": 11.29,
-      "rank": 605
+      "rank": 604
     },
     {
       "student_id": "6710",
@@ -23147,7 +23139,7 @@
         }
       },
       "average": 11.29,
-      "rank": 606
+      "rank": 605
     },
     {
       "student_id": "6645",
@@ -23160,7 +23152,7 @@
         }
       },
       "average": 11.29,
-      "rank": 607
+      "rank": 606
     },
     {
       "student_id": "6903",
@@ -23173,7 +23165,7 @@
         }
       },
       "average": 11.14,
-      "rank": 608
+      "rank": 607
     },
     {
       "student_id": "6492",
@@ -23186,7 +23178,7 @@
         }
       },
       "average": 11.14,
-      "rank": 609
+      "rank": 608
     },
     {
       "student_id": "5295",
@@ -23199,7 +23191,7 @@
         }
       },
       "average": 11.14,
-      "rank": 610
+      "rank": 609
     },
     {
       "student_id": "4578",
@@ -23212,7 +23204,7 @@
         }
       },
       "average": 11.0,
-      "rank": 611
+      "rank": 610
     },
     {
       "student_id": "8392",
@@ -23225,7 +23217,7 @@
         }
       },
       "average": 11.0,
-      "rank": 612
+      "rank": 611
     },
     {
       "student_id": "6311",
@@ -23243,7 +23235,7 @@
         }
       },
       "average": 11.0,
-      "rank": 613
+      "rank": 612
     },
     {
       "student_id": "6352",
@@ -23266,7 +23258,7 @@
         }
       },
       "average": 11.0,
-      "rank": 614
+      "rank": 613
     },
     {
       "student_id": "6039",
@@ -23279,7 +23271,7 @@
         }
       },
       "average": 11.0,
-      "rank": 615
+      "rank": 614
     },
     {
       "student_id": "6725",
@@ -23302,7 +23294,7 @@
         }
       },
       "average": 10.86,
-      "rank": 616
+      "rank": 615
     },
     {
       "student_id": "6776",
@@ -23315,7 +23307,7 @@
         }
       },
       "average": 10.86,
-      "rank": 617
+      "rank": 616
     },
     {
       "student_id": "8253",
@@ -23328,7 +23320,7 @@
         }
       },
       "average": 10.86,
-      "rank": 618
+      "rank": 617
     },
     {
       "student_id": "6872",
@@ -23341,7 +23333,7 @@
         }
       },
       "average": 10.86,
-      "rank": 619
+      "rank": 618
     },
     {
       "student_id": "6016",
@@ -23354,7 +23346,7 @@
         }
       },
       "average": 10.71,
-      "rank": 620
+      "rank": 619
     },
     {
       "student_id": "6504",
@@ -23367,7 +23359,7 @@
         }
       },
       "average": 10.71,
-      "rank": 621
+      "rank": 620
     },
     {
       "student_id": "8211",
@@ -23380,7 +23372,7 @@
         }
       },
       "average": 10.57,
-      "rank": 622
+      "rank": 621
     },
     {
       "student_id": "6512",
@@ -23393,7 +23385,7 @@
         }
       },
       "average": 10.57,
-      "rank": 623
+      "rank": 622
     },
     {
       "student_id": "6676",
@@ -23406,7 +23398,7 @@
         }
       },
       "average": 10.57,
-      "rank": 624
+      "rank": 623
     },
     {
       "student_id": "8363",
@@ -23449,7 +23441,7 @@
         }
       },
       "average": 10.43,
-      "rank": 625
+      "rank": 624
     },
     {
       "student_id": "6356",
@@ -23472,7 +23464,7 @@
         }
       },
       "average": 10.43,
-      "rank": 626
+      "rank": 625
     },
     {
       "student_id": "6493",
@@ -23485,7 +23477,7 @@
         }
       },
       "average": 10.43,
-      "rank": 627
+      "rank": 626
     },
     {
       "student_id": "6689",
@@ -23498,7 +23490,7 @@
         }
       },
       "average": 10.43,
-      "rank": 628
+      "rank": 627
     },
     {
       "student_id": "6808",
@@ -23511,7 +23503,7 @@
         }
       },
       "average": 10.43,
-      "rank": 629
+      "rank": 628
     },
     {
       "student_id": "6481",
@@ -23524,7 +23516,7 @@
         }
       },
       "average": 10.43,
-      "rank": 630
+      "rank": 629
     },
     {
       "student_id": "8332",
@@ -23537,7 +23529,7 @@
         }
       },
       "average": 10.29,
-      "rank": 631
+      "rank": 630
     },
     {
       "student_id": "8234",
@@ -23550,7 +23542,7 @@
         }
       },
       "average": 10.29,
-      "rank": 632
+      "rank": 631
     },
     {
       "student_id": "5858",
@@ -23563,7 +23555,7 @@
         }
       },
       "average": 10.29,
-      "rank": 633
+      "rank": 632
     },
     {
       "student_id": "6574",
@@ -23581,7 +23573,7 @@
         }
       },
       "average": 10.29,
-      "rank": 634
+      "rank": 633
     },
     {
       "student_id": "6136",
@@ -23599,7 +23591,7 @@
         }
       },
       "average": 10.14,
-      "rank": 635
+      "rank": 634
     },
     {
       "student_id": "1399",
@@ -23612,7 +23604,7 @@
         }
       },
       "average": 10.14,
-      "rank": 636
+      "rank": 635
     },
     {
       "student_id": "6608",
@@ -23630,7 +23622,7 @@
         }
       },
       "average": 10.14,
-      "rank": 637
+      "rank": 636
     },
     {
       "student_id": "6587",
@@ -23643,7 +23635,7 @@
         }
       },
       "average": 10.14,
-      "rank": 638
+      "rank": 637
     },
     {
       "student_id": "6840",
@@ -23656,7 +23648,7 @@
         }
       },
       "average": 10.14,
-      "rank": 639
+      "rank": 638
     },
     {
       "student_id": "6879",
@@ -23694,7 +23686,7 @@
         }
       },
       "average": 10.0,
-      "rank": 640
+      "rank": 639
     },
     {
       "student_id": "6685",
@@ -23707,7 +23699,7 @@
         }
       },
       "average": 10.0,
-      "rank": 641
+      "rank": 640
     },
     {
       "student_id": "6805",
@@ -23720,7 +23712,7 @@
         }
       },
       "average": 10.0,
-      "rank": 642
+      "rank": 641
     },
     {
       "student_id": "6678",
@@ -23733,7 +23725,7 @@
         }
       },
       "average": 10.0,
-      "rank": 643
+      "rank": 642
     },
     {
       "student_id": "6882",
@@ -23746,7 +23738,7 @@
         }
       },
       "average": 10.0,
-      "rank": 644
+      "rank": 643
     },
     {
       "student_id": "6113",
@@ -23759,7 +23751,7 @@
         }
       },
       "average": 10.0,
-      "rank": 645
+      "rank": 644
     },
     {
       "student_id": "5983",
@@ -23772,7 +23764,7 @@
         }
       },
       "average": 9.86,
-      "rank": 646
+      "rank": 645
     },
     {
       "student_id": "6263",
@@ -23790,7 +23782,7 @@
         }
       },
       "average": 9.86,
-      "rank": 647
+      "rank": 646
     },
     {
       "student_id": "6249",
@@ -23803,7 +23795,7 @@
         }
       },
       "average": 9.86,
-      "rank": 648
+      "rank": 647
     },
     {
       "student_id": "5205",
@@ -23816,7 +23808,7 @@
         }
       },
       "average": 9.86,
-      "rank": 649
+      "rank": 648
     },
     {
       "student_id": "5391",
@@ -23829,7 +23821,7 @@
         }
       },
       "average": 9.86,
-      "rank": 650
+      "rank": 649
     },
     {
       "student_id": "6008",
@@ -23842,7 +23834,7 @@
         }
       },
       "average": 9.71,
-      "rank": 651
+      "rank": 650
     },
     {
       "student_id": "6214",
@@ -23860,7 +23852,7 @@
         }
       },
       "average": 9.71,
-      "rank": 652
+      "rank": 651
     },
     {
       "student_id": "5881",
@@ -23878,7 +23870,7 @@
         }
       },
       "average": 9.71,
-      "rank": 653
+      "rank": 652
     },
     {
       "student_id": "6236",
@@ -23891,7 +23883,7 @@
         }
       },
       "average": 9.71,
-      "rank": 654
+      "rank": 653
     },
     {
       "student_id": "6507",
@@ -23904,7 +23896,7 @@
         }
       },
       "average": 9.71,
-      "rank": 655
+      "rank": 654
     },
     {
       "student_id": "6835",
@@ -23917,7 +23909,7 @@
         }
       },
       "average": 9.71,
-      "rank": 656
+      "rank": 655
     },
     {
       "student_id": "6037",
@@ -23930,7 +23922,7 @@
         }
       },
       "average": 9.57,
-      "rank": 657
+      "rank": 656
     },
     {
       "student_id": "6272",
@@ -23943,7 +23935,7 @@
         }
       },
       "average": 9.57,
-      "rank": 658
+      "rank": 657
     },
     {
       "student_id": "8102",
@@ -23961,7 +23953,7 @@
         }
       },
       "average": 9.43,
-      "rank": 659
+      "rank": 658
     },
     {
       "student_id": "8243",
@@ -23974,7 +23966,7 @@
         }
       },
       "average": 9.43,
-      "rank": 660
+      "rank": 659
     },
     {
       "student_id": "6806",
@@ -23987,7 +23979,7 @@
         }
       },
       "average": 9.43,
-      "rank": 661
+      "rank": 660
     },
     {
       "student_id": "6846",
@@ -24000,7 +23992,7 @@
         }
       },
       "average": 9.43,
-      "rank": 662
+      "rank": 661
     },
     {
       "student_id": "8220",
@@ -24013,7 +24005,7 @@
         }
       },
       "average": 9.43,
-      "rank": 663
+      "rank": 662
     },
     {
       "student_id": "6665",
@@ -24026,7 +24018,7 @@
         }
       },
       "average": 9.43,
-      "rank": 664
+      "rank": 663
     },
     {
       "student_id": "6733",
@@ -24069,7 +24061,7 @@
         }
       },
       "average": 9.29,
-      "rank": 665
+      "rank": 664
     },
     {
       "student_id": "4288",
@@ -24082,7 +24074,7 @@
         }
       },
       "average": 9.29,
-      "rank": 666
+      "rank": 665
     },
     {
       "student_id": "8131",
@@ -24095,7 +24087,7 @@
         }
       },
       "average": 9.29,
-      "rank": 667
+      "rank": 666
     },
     {
       "student_id": "8212",
@@ -24108,7 +24100,7 @@
         }
       },
       "average": 9.29,
-      "rank": 668
+      "rank": 667
     },
     {
       "student_id": "5504",
@@ -24121,7 +24113,7 @@
         }
       },
       "average": 9.29,
-      "rank": 669
+      "rank": 668
     },
     {
       "student_id": "6320",
@@ -24134,7 +24126,7 @@
         }
       },
       "average": 9.29,
-      "rank": 670
+      "rank": 669
     },
     {
       "student_id": "5784",
@@ -24147,7 +24139,7 @@
         }
       },
       "average": 9.14,
-      "rank": 671
+      "rank": 670
     },
     {
       "student_id": "6453",
@@ -24160,7 +24152,7 @@
         }
       },
       "average": 9.14,
-      "rank": 672
+      "rank": 671
     },
     {
       "student_id": "6653",
@@ -24173,7 +24165,7 @@
         }
       },
       "average": 9.0,
-      "rank": 673
+      "rank": 672
     },
     {
       "student_id": "6866",
@@ -24186,7 +24178,7 @@
         }
       },
       "average": 9.0,
-      "rank": 674
+      "rank": 673
     },
     {
       "student_id": "8123",
@@ -24199,7 +24191,7 @@
         }
       },
       "average": 9.0,
-      "rank": 675
+      "rank": 674
     },
     {
       "student_id": "6787",
@@ -24212,7 +24204,7 @@
         }
       },
       "average": 9.0,
-      "rank": 676
+      "rank": 675
     },
     {
       "student_id": "6624",
@@ -24250,7 +24242,7 @@
         }
       },
       "average": 8.86,
-      "rank": 677
+      "rank": 676
     },
     {
       "student_id": "5796",
@@ -24263,7 +24255,7 @@
         }
       },
       "average": 8.86,
-      "rank": 678
+      "rank": 677
     },
     {
       "student_id": "6646",
@@ -24276,7 +24268,7 @@
         }
       },
       "average": 8.86,
-      "rank": 679
+      "rank": 678
     },
     {
       "student_id": "6164",
@@ -24289,7 +24281,7 @@
         }
       },
       "average": 8.86,
-      "rank": 680
+      "rank": 679
     },
     {
       "student_id": "6779",
@@ -24302,7 +24294,7 @@
         }
       },
       "average": 8.86,
-      "rank": 681
+      "rank": 680
     },
     {
       "student_id": "5739",
@@ -24315,7 +24307,7 @@
         }
       },
       "average": 8.86,
-      "rank": 682
+      "rank": 681
     },
     {
       "student_id": "6755",
@@ -24328,7 +24320,7 @@
         }
       },
       "average": 8.86,
-      "rank": 683
+      "rank": 682
     },
     {
       "student_id": "8387",
@@ -24341,7 +24333,7 @@
         }
       },
       "average": 8.71,
-      "rank": 684
+      "rank": 683
     },
     {
       "student_id": "4817",
@@ -24354,7 +24346,7 @@
         }
       },
       "average": 8.71,
-      "rank": 685
+      "rank": 684
     },
     {
       "student_id": "6349",
@@ -24367,7 +24359,7 @@
         }
       },
       "average": 8.71,
-      "rank": 686
+      "rank": 685
     },
     {
       "student_id": "5971",
@@ -24380,7 +24372,7 @@
         }
       },
       "average": 8.71,
-      "rank": 687
+      "rank": 686
     },
     {
       "student_id": "6588",
@@ -24393,7 +24385,7 @@
         }
       },
       "average": 8.71,
-      "rank": 688
+      "rank": 687
     },
     {
       "student_id": "8346",
@@ -24406,7 +24398,7 @@
         }
       },
       "average": 8.57,
-      "rank": 689
+      "rank": 688
     },
     {
       "student_id": "5429",
@@ -24419,7 +24411,7 @@
         }
       },
       "average": 8.57,
-      "rank": 690
+      "rank": 689
     },
     {
       "student_id": "6705",
@@ -24437,7 +24429,7 @@
         }
       },
       "average": 8.57,
-      "rank": 691
+      "rank": 690
     },
     {
       "student_id": "6730",
@@ -24450,7 +24442,7 @@
         }
       },
       "average": 8.43,
-      "rank": 692
+      "rank": 691
     },
     {
       "student_id": "5475",
@@ -24463,7 +24455,7 @@
         }
       },
       "average": 8.43,
-      "rank": 693
+      "rank": 692
     },
     {
       "student_id": "6234",
@@ -24476,7 +24468,7 @@
         }
       },
       "average": 8.43,
-      "rank": 694
+      "rank": 693
     },
     {
       "student_id": "6376",
@@ -24494,7 +24486,7 @@
         }
       },
       "average": 8.43,
-      "rank": 695
+      "rank": 694
     },
     {
       "student_id": "6823",
@@ -24507,7 +24499,7 @@
         }
       },
       "average": 8.43,
-      "rank": 696
+      "rank": 695
     },
     {
       "student_id": "8477",
@@ -24520,7 +24512,7 @@
         }
       },
       "average": 8.29,
-      "rank": 697
+      "rank": 696
     },
     {
       "student_id": "8438",
@@ -24533,7 +24525,7 @@
         }
       },
       "average": 8.29,
-      "rank": 698
+      "rank": 697
     },
     {
       "student_id": "7023",
@@ -24546,7 +24538,7 @@
         }
       },
       "average": 8.29,
-      "rank": 699
+      "rank": 698
     },
     {
       "student_id": "5916",
@@ -24564,7 +24556,7 @@
         }
       },
       "average": 8.29,
-      "rank": 700
+      "rank": 699
     },
     {
       "student_id": "5738",
@@ -24602,7 +24594,7 @@
         }
       },
       "average": 8.14,
-      "rank": 701
+      "rank": 700
     },
     {
       "student_id": "8228",
@@ -24615,7 +24607,7 @@
         }
       },
       "average": 8.14,
-      "rank": 702
+      "rank": 701
     },
     {
       "student_id": "6449",
@@ -24628,7 +24620,7 @@
         }
       },
       "average": 8.14,
-      "rank": 703
+      "rank": 702
     },
     {
       "student_id": "6154",
@@ -24641,7 +24633,7 @@
         }
       },
       "average": 8.14,
-      "rank": 704
+      "rank": 703
     },
     {
       "student_id": "5928",
@@ -24654,7 +24646,7 @@
         }
       },
       "average": 8.14,
-      "rank": 705
+      "rank": 704
     },
     {
       "student_id": "8194",
@@ -24667,7 +24659,7 @@
         }
       },
       "average": 8.0,
-      "rank": 706
+      "rank": 705
     },
     {
       "student_id": "5316",
@@ -24680,7 +24672,7 @@
         }
       },
       "average": 8.0,
-      "rank": 707
+      "rank": 706
     },
     {
       "student_id": "5505",
@@ -24723,7 +24715,7 @@
         }
       },
       "average": 7.86,
-      "rank": 708
+      "rank": 707
     },
     {
       "student_id": "5217",
@@ -24736,7 +24728,7 @@
         }
       },
       "average": 7.86,
-      "rank": 709
+      "rank": 708
     },
     {
       "student_id": "4785",
@@ -24749,7 +24741,7 @@
         }
       },
       "average": 7.86,
-      "rank": 710
+      "rank": 709
     },
     {
       "student_id": "6443",
@@ -24767,7 +24759,7 @@
         }
       },
       "average": 7.86,
-      "rank": 711
+      "rank": 710
     },
     {
       "student_id": "5506",
@@ -24780,7 +24772,7 @@
         }
       },
       "average": 7.71,
-      "rank": 712
+      "rank": 711
     },
     {
       "student_id": "6409",
@@ -24803,7 +24795,7 @@
         }
       },
       "average": 7.71,
-      "rank": 713
+      "rank": 712
     },
     {
       "student_id": "4860",
@@ -24816,7 +24808,7 @@
         }
       },
       "average": 7.71,
-      "rank": 714
+      "rank": 713
     },
     {
       "student_id": "6058",
@@ -24829,7 +24821,7 @@
         }
       },
       "average": 7.71,
-      "rank": 715
+      "rank": 714
     },
     {
       "student_id": "5459",
@@ -24842,7 +24834,7 @@
         }
       },
       "average": 7.71,
-      "rank": 716
+      "rank": 715
     },
     {
       "student_id": "5369",
@@ -24885,7 +24877,7 @@
         }
       },
       "average": 7.57,
-      "rank": 717
+      "rank": 716
     },
     {
       "student_id": "5210",
@@ -24903,7 +24895,7 @@
         }
       },
       "average": 7.57,
-      "rank": 718
+      "rank": 717
     },
     {
       "student_id": "6909",
@@ -24916,7 +24908,7 @@
         }
       },
       "average": 7.57,
-      "rank": 719
+      "rank": 718
     },
     {
       "student_id": "1422",
@@ -24939,7 +24931,7 @@
         }
       },
       "average": 7.43,
-      "rank": 720
+      "rank": 719
     },
     {
       "student_id": "8391",
@@ -24952,7 +24944,7 @@
         }
       },
       "average": 7.43,
-      "rank": 721
+      "rank": 720
     },
     {
       "student_id": "6550",
@@ -24975,7 +24967,7 @@
         }
       },
       "average": 7.43,
-      "rank": 722
+      "rank": 721
     },
     {
       "student_id": "8441",
@@ -24988,7 +24980,7 @@
         }
       },
       "average": 7.29,
-      "rank": 723
+      "rank": 722
     },
     {
       "student_id": "8115",
@@ -25001,7 +24993,7 @@
         }
       },
       "average": 7.29,
-      "rank": 724
+      "rank": 723
     },
     {
       "student_id": "5003",
@@ -25014,7 +25006,7 @@
         }
       },
       "average": 7.29,
-      "rank": 725
+      "rank": 724
     },
     {
       "student_id": "6719",
@@ -25027,7 +25019,7 @@
         }
       },
       "average": 7.29,
-      "rank": 726
+      "rank": 725
     },
     {
       "student_id": "7511",
@@ -25040,7 +25032,7 @@
         }
       },
       "average": 7.14,
-      "rank": 727
+      "rank": 726
     },
     {
       "student_id": "8097",
@@ -25053,7 +25045,7 @@
         }
       },
       "average": 7.14,
-      "rank": 728
+      "rank": 727
     },
     {
       "student_id": "5490",
@@ -25066,7 +25058,7 @@
         }
       },
       "average": 7.14,
-      "rank": 729
+      "rank": 728
     },
     {
       "student_id": "5822",
@@ -25089,7 +25081,7 @@
         }
       },
       "average": 6.86,
-      "rank": 730
+      "rank": 729
     },
     {
       "student_id": "6844",
@@ -25102,7 +25094,7 @@
         }
       },
       "average": 6.86,
-      "rank": 731
+      "rank": 730
     },
     {
       "student_id": "6319",
@@ -25115,7 +25107,7 @@
         }
       },
       "average": 6.71,
-      "rank": 732
+      "rank": 731
     },
     {
       "student_id": "8540",
@@ -25158,7 +25150,7 @@
         }
       },
       "average": 6.57,
-      "rank": 733
+      "rank": 732
     },
     {
       "student_id": "6596",
@@ -25171,7 +25163,7 @@
         }
       },
       "average": 6.57,
-      "rank": 734
+      "rank": 733
     },
     {
       "student_id": "8388",
@@ -25184,7 +25176,7 @@
         }
       },
       "average": 6.57,
-      "rank": 735
+      "rank": 734
     },
     {
       "student_id": "8215",
@@ -25197,7 +25189,7 @@
         }
       },
       "average": 6.43,
-      "rank": 736
+      "rank": 735
     },
     {
       "student_id": "6094",
@@ -25210,7 +25202,7 @@
         }
       },
       "average": 6.43,
-      "rank": 737
+      "rank": 736
     },
     {
       "student_id": "6721",
@@ -25228,7 +25220,7 @@
         }
       },
       "average": 6.29,
-      "rank": 738
+      "rank": 737
     },
     {
       "student_id": "8118",
@@ -25241,7 +25233,7 @@
         }
       },
       "average": 6.29,
-      "rank": 739
+      "rank": 738
     },
     {
       "student_id": "8506",
@@ -25269,7 +25261,7 @@
         }
       },
       "average": 6.14,
-      "rank": 740
+      "rank": 739
     },
     {
       "student_id": "5786",
@@ -25307,7 +25299,7 @@
         }
       },
       "average": 6.14,
-      "rank": 741
+      "rank": 740
     },
     {
       "student_id": "5982",
@@ -25335,7 +25327,7 @@
         }
       },
       "average": 6.14,
-      "rank": 742
+      "rank": 741
     },
     {
       "student_id": "8120",
@@ -25348,7 +25340,7 @@
         }
       },
       "average": 6.0,
-      "rank": 743
+      "rank": 742
     },
     {
       "student_id": "8107",
@@ -25361,7 +25353,7 @@
         }
       },
       "average": 6.0,
-      "rank": 744
+      "rank": 743
     },
     {
       "student_id": "8331",
@@ -25374,7 +25366,7 @@
         }
       },
       "average": 6.0,
-      "rank": 745
+      "rank": 744
     },
     {
       "student_id": "6105",
@@ -25387,7 +25379,7 @@
         }
       },
       "average": 6.0,
-      "rank": 746
+      "rank": 745
     },
     {
       "student_id": "2659",
@@ -25400,7 +25392,7 @@
         }
       },
       "average": 6.0,
-      "rank": 747
+      "rank": 746
     },
     {
       "student_id": "5264",
@@ -25418,7 +25410,7 @@
         }
       },
       "average": 5.86,
-      "rank": 748
+      "rank": 747
     },
     {
       "student_id": "6087",
@@ -25441,7 +25433,7 @@
         }
       },
       "average": 5.71,
-      "rank": 749
+      "rank": 748
     },
     {
       "student_id": "6160",
@@ -25459,7 +25451,7 @@
         }
       },
       "average": 5.71,
-      "rank": 750
+      "rank": 749
     },
     {
       "student_id": "5274",
@@ -25497,7 +25489,7 @@
         }
       },
       "average": 5.57,
-      "rank": 751
+      "rank": 750
     },
     {
       "student_id": "6417",
@@ -25520,7 +25512,7 @@
         }
       },
       "average": 5.57,
-      "rank": 752
+      "rank": 751
     },
     {
       "student_id": "5726",
@@ -25533,7 +25525,7 @@
         }
       },
       "average": 5.57,
-      "rank": 753
+      "rank": 752
     },
     {
       "student_id": "7724",
@@ -25546,7 +25538,7 @@
         }
       },
       "average": 5.29,
-      "rank": 754
+      "rank": 753
     },
     {
       "student_id": "5585",
@@ -25564,7 +25556,7 @@
         }
       },
       "average": 5.29,
-      "rank": 755
+      "rank": 754
     },
     {
       "student_id": "8100",
@@ -25577,7 +25569,7 @@
         }
       },
       "average": 5.14,
-      "rank": 756
+      "rank": 755
     },
     {
       "student_id": "6668",
@@ -25595,7 +25587,7 @@
         }
       },
       "average": 5.14,
-      "rank": 757
+      "rank": 756
     },
     {
       "student_id": "4803",
@@ -25618,7 +25610,7 @@
         }
       },
       "average": 5.0,
-      "rank": 758
+      "rank": 757
     },
     {
       "student_id": "8336",
@@ -25631,7 +25623,7 @@
         }
       },
       "average": 5.0,
-      "rank": 759
+      "rank": 758
     },
     {
       "student_id": "5992",
@@ -25649,7 +25641,7 @@
         }
       },
       "average": 5.0,
-      "rank": 760
+      "rank": 759
     },
     {
       "student_id": "4990",
@@ -25667,7 +25659,7 @@
         }
       },
       "average": 4.71,
-      "rank": 761
+      "rank": 760
     },
     {
       "student_id": "8354",
@@ -25680,7 +25672,7 @@
         }
       },
       "average": 4.57,
-      "rank": 762
+      "rank": 761
     },
     {
       "student_id": "7012",
@@ -25723,7 +25715,7 @@
         }
       },
       "average": 4.29,
-      "rank": 763
+      "rank": 762
     },
     {
       "student_id": "6602",
@@ -25736,7 +25728,7 @@
         }
       },
       "average": 4.29,
-      "rank": 764
+      "rank": 763
     },
     {
       "student_id": "6545",
@@ -25754,7 +25746,7 @@
         }
       },
       "average": 4.29,
-      "rank": 765
+      "rank": 764
     },
     {
       "student_id": "6885",
@@ -25767,7 +25759,7 @@
         }
       },
       "average": 4.29,
-      "rank": 766
+      "rank": 765
     },
     {
       "student_id": "5898",
@@ -25800,7 +25792,7 @@
         }
       },
       "average": 4.14,
-      "rank": 767
+      "rank": 766
     },
     {
       "student_id": "6804",
@@ -25818,7 +25810,7 @@
         }
       },
       "average": 4.14,
-      "rank": 768
+      "rank": 767
     },
     {
       "student_id": "4048",
@@ -25831,7 +25823,7 @@
         }
       },
       "average": 4.14,
-      "rank": 769
+      "rank": 768
     },
     {
       "student_id": "6546",
@@ -25844,7 +25836,7 @@
         }
       },
       "average": 4.14,
-      "rank": 770
+      "rank": 769
     },
     {
       "student_id": "8140",
@@ -25857,7 +25849,7 @@
         }
       },
       "average": 4.0,
-      "rank": 771
+      "rank": 770
     },
     {
       "student_id": "6333",
@@ -25870,7 +25862,7 @@
         }
       },
       "average": 3.86,
-      "rank": 772
+      "rank": 771
     },
     {
       "student_id": "6421",
@@ -25883,7 +25875,7 @@
         }
       },
       "average": 3.86,
-      "rank": 773
+      "rank": 772
     },
     {
       "student_id": "8114",
@@ -25896,7 +25888,7 @@
         }
       },
       "average": 3.71,
-      "rank": 774
+      "rank": 773
     },
     {
       "student_id": "6410",
@@ -25909,7 +25901,7 @@
         }
       },
       "average": 3.71,
-      "rank": 775
+      "rank": 774
     },
     {
       "student_id": "4970",
@@ -25922,7 +25914,7 @@
         }
       },
       "average": 3.71,
-      "rank": 776
+      "rank": 775
     },
     {
       "student_id": "5719",
@@ -25940,7 +25932,7 @@
         }
       },
       "average": 3.57,
-      "rank": 777
+      "rank": 776
     },
     {
       "student_id": "6629",
@@ -25953,7 +25945,7 @@
         }
       },
       "average": 3.57,
-      "rank": 778
+      "rank": 777
     },
     {
       "student_id": "4804",
@@ -25991,7 +25983,7 @@
         }
       },
       "average": 3.43,
-      "rank": 779
+      "rank": 778
     },
     {
       "student_id": "4112",
@@ -26009,7 +26001,7 @@
         }
       },
       "average": 3.43,
-      "rank": 780
+      "rank": 779
     },
     {
       "student_id": "5245",
@@ -26022,7 +26014,7 @@
         }
       },
       "average": 3.43,
-      "rank": 781
+      "rank": 780
     },
     {
       "student_id": "5785",
@@ -26035,7 +26027,7 @@
         }
       },
       "average": 3.43,
-      "rank": 782
+      "rank": 781
     },
     {
       "student_id": "8315",
@@ -26048,7 +26040,7 @@
         }
       },
       "average": 3.29,
-      "rank": 783
+      "rank": 782
     },
     {
       "student_id": "8173",
@@ -26061,7 +26053,7 @@
         }
       },
       "average": 3.29,
-      "rank": 784
+      "rank": 783
     },
     {
       "student_id": "6369",
@@ -26074,7 +26066,7 @@
         }
       },
       "average": 3.29,
-      "rank": 785
+      "rank": 784
     },
     {
       "student_id": "6799",
@@ -26087,7 +26079,7 @@
         }
       },
       "average": 3.14,
-      "rank": 786
+      "rank": 785
     },
     {
       "student_id": "8099",
@@ -26100,7 +26092,7 @@
         }
       },
       "average": 3.14,
-      "rank": 787
+      "rank": 786
     },
     {
       "student_id": "6413",
@@ -26113,7 +26105,7 @@
         }
       },
       "average": 3.14,
-      "rank": 788
+      "rank": 787
     },
     {
       "student_id": "6647",
@@ -26126,7 +26118,7 @@
         }
       },
       "average": 3.14,
-      "rank": 789
+      "rank": 788
     },
     {
       "student_id": "4020",
@@ -26164,7 +26156,7 @@
         }
       },
       "average": 3.0,
-      "rank": 790
+      "rank": 789
     },
     {
       "student_id": "6875",
@@ -26177,7 +26169,7 @@
         }
       },
       "average": 3.0,
-      "rank": 791
+      "rank": 790
     },
     {
       "student_id": "8103",
@@ -26190,7 +26182,7 @@
         }
       },
       "average": 3.0,
-      "rank": 792
+      "rank": 791
     },
     {
       "student_id": "6604",
@@ -26203,7 +26195,7 @@
         }
       },
       "average": 3.0,
-      "rank": 793
+      "rank": 792
     },
     {
       "student_id": "3048",
@@ -26216,7 +26208,7 @@
         }
       },
       "average": 3.0,
-      "rank": 794
+      "rank": 793
     },
     {
       "student_id": "8503",
@@ -26229,7 +26221,7 @@
         }
       },
       "average": 2.86,
-      "rank": 795
+      "rank": 794
     },
     {
       "student_id": "5697",
@@ -26247,7 +26239,7 @@
         }
       },
       "average": 2.86,
-      "rank": 796
+      "rank": 795
     },
     {
       "student_id": "5001",
@@ -26275,7 +26267,7 @@
         }
       },
       "average": 2.86,
-      "rank": 797
+      "rank": 796
     },
     {
       "student_id": "6455",
@@ -26288,7 +26280,7 @@
         }
       },
       "average": 2.86,
-      "rank": 798
+      "rank": 797
     },
     {
       "student_id": "6575",
@@ -26301,7 +26293,7 @@
         }
       },
       "average": 2.71,
-      "rank": 799
+      "rank": 798
     },
     {
       "student_id": "6486",
@@ -26314,7 +26306,7 @@
         }
       },
       "average": 2.71,
-      "rank": 800
+      "rank": 799
     },
     {
       "student_id": "6886",
@@ -26327,7 +26319,7 @@
         }
       },
       "average": 2.71,
-      "rank": 801
+      "rank": 800
     },
     {
       "student_id": "6318",
@@ -26340,7 +26332,7 @@
         }
       },
       "average": 2.57,
-      "rank": 802
+      "rank": 801
     },
     {
       "student_id": "6346",
@@ -26353,7 +26345,7 @@
         }
       },
       "average": 2.43,
-      "rank": 803
+      "rank": 802
     },
     {
       "student_id": "5176",
@@ -26366,7 +26358,7 @@
         }
       },
       "average": 2.43,
-      "rank": 804
+      "rank": 803
     },
     {
       "student_id": "5879",
@@ -26379,7 +26371,7 @@
         }
       },
       "average": 2.29,
-      "rank": 805
+      "rank": 804
     },
     {
       "student_id": "6067",
@@ -26392,7 +26384,7 @@
         }
       },
       "average": 2.29,
-      "rank": 806
+      "rank": 805
     },
     {
       "student_id": "6783",
@@ -26405,7 +26397,7 @@
         }
       },
       "average": 2.29,
-      "rank": 807
+      "rank": 806
     },
     {
       "student_id": "6811",
@@ -26418,7 +26410,7 @@
         }
       },
       "average": 2.29,
-      "rank": 808
+      "rank": 807
     },
     {
       "student_id": "6773",
@@ -26461,7 +26453,7 @@
         }
       },
       "average": 2.14,
-      "rank": 809
+      "rank": 808
     },
     {
       "student_id": "6095",
@@ -26479,7 +26471,7 @@
         }
       },
       "average": 2.14,
-      "rank": 810
+      "rank": 809
     },
     {
       "student_id": "6499",
@@ -26512,7 +26504,7 @@
         }
       },
       "average": 2.14,
-      "rank": 811
+      "rank": 810
     },
     {
       "student_id": "3825",
@@ -26525,7 +26517,7 @@
         }
       },
       "average": 2.14,
-      "rank": 812
+      "rank": 811
     },
     {
       "student_id": "5258",
@@ -26538,7 +26530,7 @@
         }
       },
       "average": 2.14,
-      "rank": 813
+      "rank": 812
     },
     {
       "student_id": "8349",
@@ -26551,7 +26543,7 @@
         }
       },
       "average": 2.14,
-      "rank": 814
+      "rank": 813
     },
     {
       "student_id": "5525",
@@ -26564,7 +26556,7 @@
         }
       },
       "average": 2.14,
-      "rank": 815
+      "rank": 814
     },
     {
       "student_id": "5644",
@@ -26577,7 +26569,7 @@
         }
       },
       "average": 2.0,
-      "rank": 816
+      "rank": 815
     },
     {
       "student_id": "7037",
@@ -26590,7 +26582,7 @@
         }
       },
       "average": 2.0,
-      "rank": 817
+      "rank": 816
     },
     {
       "student_id": "6458",
@@ -26603,7 +26595,7 @@
         }
       },
       "average": 2.0,
-      "rank": 818
+      "rank": 817
     },
     {
       "student_id": "6395",
@@ -26616,7 +26608,7 @@
         }
       },
       "average": 2.0,
-      "rank": 819
+      "rank": 818
     },
     {
       "student_id": "5154",
@@ -26629,7 +26621,7 @@
         }
       },
       "average": 1.86,
-      "rank": 820
+      "rank": 819
     },
     {
       "student_id": "2961",
@@ -26642,7 +26634,7 @@
         }
       },
       "average": 1.86,
-      "rank": 821
+      "rank": 820
     },
     {
       "student_id": "5280",
@@ -26655,7 +26647,7 @@
         }
       },
       "average": 1.71,
-      "rank": 822
+      "rank": 821
     },
     {
       "student_id": "6020",
@@ -26668,7 +26660,7 @@
         }
       },
       "average": 1.71,
-      "rank": 823
+      "rank": 822
     },
     {
       "student_id": "6774",
@@ -26681,7 +26673,7 @@
         }
       },
       "average": 1.57,
-      "rank": 824
+      "rank": 823
     },
     {
       "student_id": "6496",
@@ -26694,7 +26686,7 @@
         }
       },
       "average": 1.57,
-      "rank": 825
+      "rank": 824
     },
     {
       "student_id": "4981",
@@ -26732,7 +26724,7 @@
         }
       },
       "average": 1.43,
-      "rank": 826
+      "rank": 825
     },
     {
       "student_id": "6714",
@@ -26745,7 +26737,7 @@
         }
       },
       "average": 1.43,
-      "rank": 827
+      "rank": 826
     },
     {
       "student_id": "5492",
@@ -26758,7 +26750,7 @@
         }
       },
       "average": 1.43,
-      "rank": 828
+      "rank": 827
     },
     {
       "student_id": "6786",
@@ -26771,7 +26763,7 @@
         }
       },
       "average": 1.43,
-      "rank": 829
+      "rank": 828
     },
     {
       "student_id": "6358",
@@ -26809,7 +26801,7 @@
         }
       },
       "average": 1.29,
-      "rank": 830
+      "rank": 829
     },
     {
       "student_id": "5937",
@@ -26847,7 +26839,7 @@
         }
       },
       "average": 1.29,
-      "rank": 831
+      "rank": 830
     },
     {
       "student_id": "5088",
@@ -26860,7 +26852,7 @@
         }
       },
       "average": 1.29,
-      "rank": 832
+      "rank": 831
     },
     {
       "student_id": "8328",
@@ -26873,7 +26865,7 @@
         }
       },
       "average": 1.29,
-      "rank": 833
+      "rank": 832
     },
     {
       "student_id": "5082",
@@ -26886,7 +26878,7 @@
         }
       },
       "average": 1.29,
-      "rank": 834
+      "rank": 833
     },
     {
       "student_id": "5673",
@@ -26924,7 +26916,7 @@
         }
       },
       "average": 1.14,
-      "rank": 835
+      "rank": 834
     },
     {
       "student_id": "5895",
@@ -26962,7 +26954,7 @@
         }
       },
       "average": 1.14,
-      "rank": 836
+      "rank": 835
     },
     {
       "student_id": "6859",
@@ -26975,7 +26967,7 @@
         }
       },
       "average": 1.14,
-      "rank": 837
+      "rank": 836
     },
     {
       "student_id": "8484",
@@ -26988,7 +26980,7 @@
         }
       },
       "average": 1.0,
-      "rank": 838
+      "rank": 837
     },
     {
       "student_id": "4408",
@@ -27001,7 +26993,7 @@
         }
       },
       "average": 1.0,
-      "rank": 839
+      "rank": 838
     },
     {
       "student_id": "6834",
@@ -27014,7 +27006,7 @@
         }
       },
       "average": 1.0,
-      "rank": 840
+      "rank": 839
     },
     {
       "student_id": "5770",
@@ -27027,7 +27019,7 @@
         }
       },
       "average": 0.86,
-      "rank": 841
+      "rank": 840
     },
     {
       "student_id": "5975",
@@ -27040,7 +27032,7 @@
         }
       },
       "average": 0.71,
-      "rank": 842
+      "rank": 841
     },
     {
       "student_id": "6116",
@@ -27053,7 +27045,7 @@
         }
       },
       "average": 0.71,
-      "rank": 843
+      "rank": 842
     },
     {
       "student_id": "6910",
@@ -27066,7 +27058,7 @@
         }
       },
       "average": 0.71,
-      "rank": 844
+      "rank": 843
     },
     {
       "student_id": "6682",
@@ -27079,7 +27071,7 @@
         }
       },
       "average": 0.57,
-      "rank": 845
+      "rank": 844
     },
     {
       "student_id": "9775",
@@ -27092,7 +27084,7 @@
         }
       },
       "average": 0.43,
-      "rank": 846
+      "rank": 845
     },
     {
       "student_id": "4966",
@@ -27105,7 +27097,7 @@
         }
       },
       "average": 0.43,
-      "rank": 847
+      "rank": 846
     },
     {
       "student_id": "7321",
@@ -27148,7 +27140,7 @@
         }
       },
       "average": 0.0,
-      "rank": 848
+      "rank": 847
     },
     {
       "student_id": "7240",
@@ -27191,7 +27183,7 @@
         }
       },
       "average": 0.0,
-      "rank": 849
+      "rank": 848
     },
     {
       "student_id": "7412",
@@ -27234,7 +27226,7 @@
         }
       },
       "average": 0.0,
-      "rank": 850
+      "rank": 849
     },
     {
       "student_id": "7366",
@@ -27277,7 +27269,7 @@
         }
       },
       "average": 0.0,
-      "rank": 851
+      "rank": 850
     },
     {
       "student_id": "7439",
@@ -27320,7 +27312,7 @@
         }
       },
       "average": 0.0,
-      "rank": 852
+      "rank": 851
     },
     {
       "student_id": "7390",
@@ -27363,7 +27355,7 @@
         }
       },
       "average": 0.0,
-      "rank": 853
+      "rank": 852
     },
     {
       "student_id": "6950",
@@ -27406,7 +27398,7 @@
         }
       },
       "average": 0.0,
-      "rank": 854
+      "rank": 853
     },
     {
       "student_id": "7056",
@@ -27449,7 +27441,7 @@
         }
       },
       "average": 0.0,
-      "rank": 855
+      "rank": 854
     },
     {
       "student_id": "4712",
@@ -27492,7 +27484,7 @@
         }
       },
       "average": 0.0,
-      "rank": 856
+      "rank": 855
     },
     {
       "student_id": "8283",
@@ -27530,7 +27522,7 @@
         }
       },
       "average": 0.0,
-      "rank": 857
+      "rank": 856
     },
     {
       "student_id": "8267",
@@ -27568,7 +27560,7 @@
         }
       },
       "average": 0.0,
-      "rank": 858
+      "rank": 857
     },
     {
       "student_id": "7010",
@@ -27611,7 +27603,7 @@
         }
       },
       "average": 0.0,
-      "rank": 859
+      "rank": 858
     },
     {
       "student_id": "6833",
@@ -27654,7 +27646,7 @@
         }
       },
       "average": 0.0,
-      "rank": 860
+      "rank": 859
     },
     {
       "student_id": "7081",
@@ -27697,7 +27689,7 @@
         }
       },
       "average": 0.0,
-      "rank": 861
+      "rank": 860
     },
     {
       "student_id": "8457",
@@ -27735,7 +27727,7 @@
         }
       },
       "average": 0.0,
-      "rank": 862
+      "rank": 861
     },
     {
       "student_id": "6361",
@@ -27778,7 +27770,7 @@
         }
       },
       "average": 0.0,
-      "rank": 863
+      "rank": 862
     },
     {
       "student_id": "8398",
@@ -27816,7 +27808,7 @@
         }
       },
       "average": 0.0,
-      "rank": 864
+      "rank": 863
     },
     {
       "student_id": "6223",
@@ -27859,7 +27851,7 @@
         }
       },
       "average": 0.0,
-      "rank": 865
+      "rank": 864
     },
     {
       "student_id": "3535",
@@ -27882,7 +27874,7 @@
         }
       },
       "average": 0.0,
-      "rank": 866
+      "rank": 865
     },
     {
       "student_id": "5897",
@@ -27915,7 +27907,7 @@
         }
       },
       "average": 0.0,
-      "rank": 867
+      "rank": 866
     },
     {
       "student_id": "6329",
@@ -27928,7 +27920,7 @@
         }
       },
       "average": 0.0,
-      "rank": 868
+      "rank": 867
     },
     {
       "student_id": "6785",
@@ -27941,7 +27933,7 @@
         }
       },
       "average": 0.0,
-      "rank": 869
+      "rank": 868
     },
     {
       "student_id": "8511",
@@ -27959,7 +27951,7 @@
         }
       },
       "average": 0.0,
-      "rank": 870
+      "rank": 869
     },
     {
       "student_id": "6362",
@@ -27977,7 +27969,7 @@
         }
       },
       "average": 0.0,
-      "rank": 871
+      "rank": 870
     },
     {
       "student_id": "6809",
@@ -27990,7 +27982,7 @@
         }
       },
       "average": 0.0,
-      "rank": 872
+      "rank": 871
     },
     {
       "student_id": "3408",
@@ -28003,7 +27995,7 @@
         }
       },
       "average": 0.0,
-      "rank": 873
+      "rank": 872
     },
     {
       "student_id": "6419",
@@ -28016,7 +28008,7 @@
         }
       },
       "average": 0.0,
-      "rank": 874
+      "rank": 873
     },
     {
       "student_id": "5303",
@@ -28029,7 +28021,7 @@
         }
       },
       "average": 0.0,
-      "rank": 875
+      "rank": 874
     }
   ]
 }
